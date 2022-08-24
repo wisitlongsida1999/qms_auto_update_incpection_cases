@@ -427,10 +427,12 @@ class UPDATE_INSPECTION:
                 if self.auto_close_case(fa_case):
             
                     return True
-        
-        finally:
+
+        except:
             
-            return False
+            self.logger.critical("Traceback Error: "+traceback.format_exc())
+            
+        return False
         
 
     def move_case(self,case,target):
