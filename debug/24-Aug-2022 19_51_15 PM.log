@@ -1,0 +1,29 @@
+24/Aug/2022 07:51:27 PM - login - 94 - INFO - Wait for Universal Prompt render:1
+24/Aug/2022 07:51:43 PM - login - 119 - INFO - Wait for count_duo_pass:1
+24/Aug/2022 07:51:44 PM - login - 119 - INFO - Wait for count_duo_pass:2
+24/Aug/2022 07:51:55 PM - login - 129 - INFO - Login to QIS is success!!!
+24/Aug/2022 07:52:16 PM - login - 137 - DEBUG - Main Page:CDwindow-D189FB6DAA332E1990541773C8E844A5
+24/Aug/2022 07:52:19 PM - extract_data_excel - 166 - INFO -    Site Received Serial# QIT Disposition         FA#  Problem Description Case Owner                 PID  Unnamed: 6  80
+0            ONT18310341           Scrap  FA-0553642                  NaN    anuchma         SFP-10G-LR=         NaN NaN
+1            JFQ2127302K           Scrap  FA-0553855                  NaN    anuchma  QSFP-100G-CWDM4-S=         NaN NaN
+2            JUR1830BKLQ           Scrap  FA-0553936                  NaN    anuchma            FET-10G=         NaN NaN
+3            JUR1830BJ7Q           Scrap  FA-0553936                  NaN    anuchma            FET-10G=         NaN NaN
+4            OPM2033012L           Scrap  FA-0554709                  NaN    anuchma         GLC-LH-SMD=         NaN NaN
+..                   ...             ...         ...                  ...        ...                 ...         ...  ..
+75           FNS1829048S           Scrap  FA-0563198                  NaN    anuchma       QSFP-40G-LR4=         NaN NaN
+76           AGJ2045R35W           Scrap  FA-0563321                  NaN    anuchma         GLC-SX-MMD=         NaN NaN
+77           FNS17211E8U           Scrap  FA-0563322                  NaN    anuchma         GLC-SX-MMD=         NaN NaN
+78           AGA1747R92C           Scrap  FA-0563328                  NaN    anuchma         GLC-SX-MMD=         NaN NaN
+79           FNS1926197A           Scrap  FA-0563367                  NaN    anuchma         GLC-LH-SMD=         NaN NaN
+
+[80 rows x 8 columns]
+24/Aug/2022 07:52:19 PM - extract_data_excel - 172 - INFO - Number of rows >>> 80
+24/Aug/2022 07:52:19 PM - <module> - 827 - CRITICAL - Traceback Error: Traceback (most recent call last):
+  File "c:\Users\wlongsid\OneDrive - Cisco\Documents\DEV\PY\qms_auto_update_incpection_cases\main.py", line 822, in <module>
+    run.main()
+  File "c:\Users\wlongsid\OneDrive - Cisco\Documents\DEV\PY\qms_auto_update_incpection_cases\main.py", line 783, in main
+    self.extract_data_excel()
+  File "c:\Users\wlongsid\OneDrive - Cisco\Documents\DEV\PY\qms_auto_update_incpection_cases\main.py", line 186, in extract_data_excel
+    with open(self.csv_file, newline='', encoding='UTF8') as f:
+AttributeError: 'UPDATE_INSPECTION' object has no attribute 'csv_file'
+

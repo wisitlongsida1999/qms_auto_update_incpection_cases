@@ -1,0 +1,8 @@
+[INSPECTION_LOGIN]
+
+email = wlongsid@cisco.com
+password = @Rt025813603
+
+inspect_path = C:\Users\wisitl\Documents\PY\Inspection_Macro\Inspect_Files\
+
+inherit_path = C:\Users\wisitl\Documents\PY\Inspection_Macro\Inherit_Files\

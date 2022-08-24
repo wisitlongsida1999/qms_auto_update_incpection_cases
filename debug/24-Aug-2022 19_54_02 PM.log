@@ -1,0 +1,282 @@
+24/Aug/2022 07:54:12 PM - login - 94 - INFO - Wait for Universal Prompt render:1
+24/Aug/2022 07:54:25 PM - login - 119 - INFO - Wait for count_duo_pass:1
+24/Aug/2022 07:54:26 PM - login - 119 - INFO - Wait for count_duo_pass:2
+24/Aug/2022 07:54:31 PM - login - 129 - INFO - Login to QIS is success!!!
+24/Aug/2022 07:54:56 PM - login - 137 - DEBUG - Main Page:CDwindow-C8F08AC5C9A3D502EACD0F873CCD02AE
+24/Aug/2022 07:54:59 PM - extract_data_excel - 166 - INFO -    Site Received Serial# QIT Disposition         FA#  Problem Description Case Owner                 PID  Unnamed: 6  80
+0            ONT18310341           Scrap  FA-0553642                  NaN    anuchma         SFP-10G-LR=         NaN NaN
+1            JFQ2127302K           Scrap  FA-0553855                  NaN    anuchma  QSFP-100G-CWDM4-S=         NaN NaN
+2            JUR1830BKLQ           Scrap  FA-0553936                  NaN    anuchma            FET-10G=         NaN NaN
+3            JUR1830BJ7Q           Scrap  FA-0553936                  NaN    anuchma            FET-10G=         NaN NaN
+4            OPM2033012L           Scrap  FA-0554709                  NaN    anuchma         GLC-LH-SMD=         NaN NaN
+..                   ...             ...         ...                  ...        ...                 ...         ...  ..
+75           FNS1829048S           Scrap  FA-0563198                  NaN    anuchma       QSFP-40G-LR4=         NaN NaN
+76           AGJ2045R35W           Scrap  FA-0563321                  NaN    anuchma         GLC-SX-MMD=         NaN NaN
+77           FNS17211E8U           Scrap  FA-0563322                  NaN    anuchma         GLC-SX-MMD=         NaN NaN
+78           AGA1747R92C           Scrap  FA-0563328                  NaN    anuchma         GLC-SX-MMD=         NaN NaN
+79           FNS1926197A           Scrap  FA-0563367                  NaN    anuchma         GLC-LH-SMD=         NaN NaN
+
+[80 rows x 8 columns]
+24/Aug/2022 07:54:59 PM - extract_data_excel - 172 - INFO - Number of rows >>> 80
+24/Aug/2022 07:54:59 PM - extract_data_excel - 198 - DEBUG - After Filter FA case that already done.
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0553642{'ONT18310341': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LR=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0553855{'JFQ2127302K': ['Scrap', 'nan', 'anuchma', 'QSFP-100G-CWDM4-S=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0553936{'JUR1830BKLQ': ['Scrap', 'nan', 'anuchma', 'FET-10G='], 'JUR1830BJ7Q': ['Scrap', 'nan', 'anuchma', 'FET-10G=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0554709{'OPM2033012L': ['Scrap', 'nan', 'anuchma', 'GLC-LH-SMD=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0554845{'JUR2021B9DL': ['Scrap', 'nan', 'anuchma', 'FET-10G='], 'JUS1728BMH3': ['Scrap', 'nan', 'anuchma', 'FET-10G='], 'JUR1921BJW3': ['Scrap', 'nan', 'anuchma', 'FET-10G=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0555189{'JUR2114B1HG': ['Scrap', 'nan', 'anuchma', 'FET-10G=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0555828{'JUR2002B4CU': ['Scrap', 'nan', 'anuchma', 'FET-10G='], 'JUR2002B3D0': ['Scrap', 'nan', 'anuchma', 'FET-10G='], 'JUR2002B4C2': ['Scrap', 'nan', 'anuchma', 'FET-10G='], 'JUR2002B3DE': ['Scrap', 'nan', 'anuchma', 'FET-10G='], 'JUR2002B3DL': ['Scrap', 'nan', 'anuchma', 'FET-10G='], 'JUR2002B4R4': ['Scrap', 'nan', 'anuchma', 'FET-10G=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0556003{'JFQ212830EJ': ['Scrap', 'nan', 'anuchma', 'QSFP-100G-CWDM4-S=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0556030{'AVP1904S04L': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-SR4-S=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0556187{'JFQ2130307C': ['Scrap', 'nan', 'anuchma', 'QSFP-100G-CWDM4-S=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0556641{'JFS1917100W': ['Scrap', 'nan', 'anuchma', 'DWDM-SFP10G-C=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0556681{'FNS193501DK': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LR=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0557998{'FNS193205QL': ['Scrap', 'nan', 'anuchma', 'GLC-SX-MMD=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0558375{'AVP1830S2T2': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-CSR4=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0558553{'AVF2043U18P': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-SR-BD=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0558554{'AVF2042U2K4': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-SR-BD=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0558700{'AVM2112U2H5': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-SR-BD='], 'AVM2112U2GU': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-SR-BD=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0558702{'AVM2038U1GC': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-SR-BD=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0558896{'FNS17071C0S': ['Scrap', 'nan', 'anuchma', 'GLC-SX-MMD='], 'OPM203904JN': ['Scrap', 'nan', 'anuchma', 'GLC-SX-MMD=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0558967{'FNS19150GJD': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LR=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0559116{'AVF2029U0KS': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-SR-BD='], 'AVF2038U18N': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-SR-BD=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0559117{'AVM2043U3S7': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-SR-BD=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0559549{'AVM2039U243': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-SR-BD=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0559722{'ONT174502JJ': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LR=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0559739{'FIW202100MD': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-CSR4=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0559818{'AVM2113U4W4': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-SR-BD=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0560012{'AVF2051U3JN': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-SR-BD=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0560025{'FNS17210W5J': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LR=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0560045{'INL21160009': ['Scrap', 'nan', 'anuchma', 'QSFP-4X10G-LR-S=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0560047{'AVP1727S0ZY': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-CSR4=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0560205{'OPT19110305': ['Scrap', 'nan', 'anuchma', 'GLC-GE-100FX=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0560319{'FNS18390WFY': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LR=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0560447{'FNS190801UQ': ['Scrap', 'nan', 'anuchma', 'GLC-SX-MMD=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0560461{'FIW211003QL': ['Scrap', 'nan', 'anuchma', 'QSFP-100G-AOC7M=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0560566{'AGD2132Z2FE': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LRM='], 'AGD2132Z1GE': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LRM='], 'AGD2132Z1P1': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LRM=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0560595{'FNS18150R5S': ['Scrap', 'nan', 'anuchma', 'X2-10GB-SR=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0560603{'AVJ213233YU': ['Scrap', 'nan', 'anuchma', 'GLC-LH-SMD=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0560831{'JFX1712A038': ['Scrap', 'nan', 'anuchma', 'DWDM-XFP-C=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0560833{'ONT1735000T': ['Scrap', 'nan', 'anuchma', 'XFP-10G-MM-SR=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0560963{'FNS193612FL': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LR=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0561226{'FNS21270ZZR': ['Scrap', 'nan', 'anuchma', 'QSFP-100G-LR4-S=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0561285{'FNS12380AG6': ['Scrap', 'nan', 'anuchma', 'X2-10GB-SR='], 'FNS113005XT': ['Scrap', 'nan', 'anuchma', 'X2-10GB-SR=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0561305{'FNS19350D5T': ['Scrap', 'nan', 'anuchma', 'XFP-10G-MM-SR=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0561342{'ECL2017000H': ['Scrap', 'nan', 'anuchma', 'SFP-10G-ZR=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0561343{'FLJ2024K025': ['Scrap', 'nan', 'anuchma', 'SFP-10G-ZR=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0561503{'FNS19381C74': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LR=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0561571{'AGD1621V170': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LRM=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0561600{'ONT203700NH': ['Scrap', 'nan', 'anuchma', 'DWDM-SFP10G-C=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0561604{'ONT2050007U': ['Scrap', 'nan', 'anuchma', 'SFP-10G-ER=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0561623{'JFQ21301010': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-SR4-S=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0561801{'FNS211514Y4': ['Scrap', 'nan', 'anuchma', 'QSFP-100G-SM-SR=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0561925{'FNS20051JWE': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LR='], 'ONT1529033H': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LR=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0562059{'ONT150703SW': ['Scrap', 'nan', 'anuchma', 'X2-10GB-SR=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0562159{'ONT15050195': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LR='], 'ONT1505013D': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LR=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0562399{'FNS192626TA': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LR=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0562432{'FNS212718XG': ['Scrap', 'nan', 'anuchma', 'QSFP-100G-LR4-S=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0562734{'FNS16301B1C': ['Scrap', 'nan', 'anuchma', 'XFP-10G-MM-SR=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0562890{'FNS21200521': ['Scrap', 'nan', 'anuchma', 'GLC-ZX-SMD=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0562936{'FOX1710XY8T': ['Scrap', 'nan', 'anuchma', 'CVR-X2-SFP10G=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0563198{'FNS1829048S': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-LR4=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0563321{'AGJ2045R35W': ['Scrap', 'nan', 'anuchma', 'GLC-SX-MMD=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0563322{'FNS17211E8U': ['Scrap', 'nan', 'anuchma', 'GLC-SX-MMD=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0563328{'AGA1747R92C': ['Scrap', 'nan', 'anuchma', 'GLC-SX-MMD=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 202 - DEBUG - FA-0563367{'FNS1926197A': ['Scrap', 'nan', 'anuchma', 'GLC-LH-SMD=']}
+24/Aug/2022 07:54:59 PM - extract_data_excel - 204 - INFO - FA Case number >>> 64 Cases
+24/Aug/2022 07:54:59 PM - search_case - 598 - INFO - FA Case >>> FA-0553642
+24/Aug/2022 07:55:04 PM - search_case - 621 - INFO - Status of FA-0553642 >>> Pending Closure Approval
+24/Aug/2022 07:55:04 PM - search_case - 628 - WARNING - Skip FA-0553642 >>> The status is not accept.
+24/Aug/2022 07:55:04 PM - search_case - 598 - INFO - FA Case >>> FA-0553855
+24/Aug/2022 07:55:09 PM - search_case - 621 - INFO - Status of FA-0553855 >>> Pending Closure Approval
+24/Aug/2022 07:55:09 PM - search_case - 628 - WARNING - Skip FA-0553855 >>> The status is not accept.
+24/Aug/2022 07:55:09 PM - search_case - 598 - INFO - FA Case >>> FA-0553936
+24/Aug/2022 07:55:14 PM - search_case - 621 - INFO - Status of FA-0553936 >>> Pending Closure Approval
+24/Aug/2022 07:55:14 PM - search_case - 628 - WARNING - Skip FA-0553936 >>> The status is not accept.
+24/Aug/2022 07:55:14 PM - search_case - 598 - INFO - FA Case >>> FA-0554709
+24/Aug/2022 07:55:18 PM - search_case - 621 - INFO - Status of FA-0554709 >>> Pending Closure Approval
+24/Aug/2022 07:55:18 PM - search_case - 628 - WARNING - Skip FA-0554709 >>> The status is not accept.
+24/Aug/2022 07:55:18 PM - search_case - 598 - INFO - FA Case >>> FA-0554845
+24/Aug/2022 07:55:23 PM - search_case - 621 - INFO - Status of FA-0554845 >>> Pending Closure Approval
+24/Aug/2022 07:55:23 PM - search_case - 628 - WARNING - Skip FA-0554845 >>> The status is not accept.
+24/Aug/2022 07:55:23 PM - search_case - 598 - INFO - FA Case >>> FA-0555189
+24/Aug/2022 07:55:28 PM - search_case - 621 - INFO - Status of FA-0555189 >>> Pending Closure Approval
+24/Aug/2022 07:55:28 PM - search_case - 628 - WARNING - Skip FA-0555189 >>> The status is not accept.
+24/Aug/2022 07:55:28 PM - search_case - 598 - INFO - FA Case >>> FA-0555828
+24/Aug/2022 07:55:33 PM - search_case - 621 - INFO - Status of FA-0555828 >>> Pending Closure Approval
+24/Aug/2022 07:55:33 PM - search_case - 628 - WARNING - Skip FA-0555828 >>> The status is not accept.
+24/Aug/2022 07:55:33 PM - search_case - 598 - INFO - FA Case >>> FA-0556003
+24/Aug/2022 07:55:38 PM - search_case - 621 - INFO - Status of FA-0556003 >>> Pending Closure Approval
+24/Aug/2022 07:55:38 PM - search_case - 628 - WARNING - Skip FA-0556003 >>> The status is not accept.
+24/Aug/2022 07:55:38 PM - search_case - 598 - INFO - FA Case >>> FA-0556030
+24/Aug/2022 07:55:43 PM - search_case - 621 - INFO - Status of FA-0556030 >>> Pending Closure Approval
+24/Aug/2022 07:55:43 PM - search_case - 628 - WARNING - Skip FA-0556030 >>> The status is not accept.
+24/Aug/2022 07:55:43 PM - search_case - 598 - INFO - FA Case >>> FA-0556187
+24/Aug/2022 07:55:47 PM - search_case - 621 - INFO - Status of FA-0556187 >>> Pending Closure Approval
+24/Aug/2022 07:55:47 PM - search_case - 628 - WARNING - Skip FA-0556187 >>> The status is not accept.
+24/Aug/2022 07:55:47 PM - search_case - 598 - INFO - FA Case >>> FA-0556641
+24/Aug/2022 07:55:52 PM - search_case - 621 - INFO - Status of FA-0556641 >>> Pending Closure Approval
+24/Aug/2022 07:55:52 PM - search_case - 628 - WARNING - Skip FA-0556641 >>> The status is not accept.
+24/Aug/2022 07:55:52 PM - search_case - 598 - INFO - FA Case >>> FA-0556681
+24/Aug/2022 07:55:57 PM - search_case - 621 - INFO - Status of FA-0556681 >>> Pending Closure Approval
+24/Aug/2022 07:55:57 PM - search_case - 628 - WARNING - Skip FA-0556681 >>> The status is not accept.
+24/Aug/2022 07:55:57 PM - search_case - 598 - INFO - FA Case >>> FA-0557998
+24/Aug/2022 07:56:02 PM - search_case - 621 - INFO - Status of FA-0557998 >>> Pending Closure Approval
+24/Aug/2022 07:56:02 PM - search_case - 628 - WARNING - Skip FA-0557998 >>> The status is not accept.
+24/Aug/2022 07:56:02 PM - search_case - 598 - INFO - FA Case >>> FA-0558375
+24/Aug/2022 07:56:06 PM - search_case - 621 - INFO - Status of FA-0558375 >>> Pending Closure Approval
+24/Aug/2022 07:56:06 PM - search_case - 628 - WARNING - Skip FA-0558375 >>> The status is not accept.
+24/Aug/2022 07:56:06 PM - search_case - 598 - INFO - FA Case >>> FA-0558553
+24/Aug/2022 07:56:11 PM - search_case - 621 - INFO - Status of FA-0558553 >>> Pending Closure Approval
+24/Aug/2022 07:56:11 PM - search_case - 628 - WARNING - Skip FA-0558553 >>> The status is not accept.
+24/Aug/2022 07:56:11 PM - search_case - 598 - INFO - FA Case >>> FA-0558554
+24/Aug/2022 07:56:16 PM - search_case - 621 - INFO - Status of FA-0558554 >>> Pending Closure Approval
+24/Aug/2022 07:56:16 PM - search_case - 628 - WARNING - Skip FA-0558554 >>> The status is not accept.
+24/Aug/2022 07:56:16 PM - search_case - 598 - INFO - FA Case >>> FA-0558700
+24/Aug/2022 07:56:21 PM - search_case - 621 - INFO - Status of FA-0558700 >>> Pending Closure Approval
+24/Aug/2022 07:56:21 PM - search_case - 628 - WARNING - Skip FA-0558700 >>> The status is not accept.
+24/Aug/2022 07:56:21 PM - search_case - 598 - INFO - FA Case >>> FA-0558702
+24/Aug/2022 07:56:25 PM - search_case - 621 - INFO - Status of FA-0558702 >>> Pending Closure Approval
+24/Aug/2022 07:56:25 PM - search_case - 628 - WARNING - Skip FA-0558702 >>> The status is not accept.
+24/Aug/2022 07:56:25 PM - search_case - 598 - INFO - FA Case >>> FA-0558896
+24/Aug/2022 07:56:30 PM - search_case - 621 - INFO - Status of FA-0558896 >>> Pending Closure Approval
+24/Aug/2022 07:56:30 PM - search_case - 628 - WARNING - Skip FA-0558896 >>> The status is not accept.
+24/Aug/2022 07:56:30 PM - search_case - 598 - INFO - FA Case >>> FA-0558967
+24/Aug/2022 07:56:35 PM - search_case - 621 - INFO - Status of FA-0558967 >>> Pending Closure Approval
+24/Aug/2022 07:56:35 PM - search_case - 628 - WARNING - Skip FA-0558967 >>> The status is not accept.
+24/Aug/2022 07:56:35 PM - search_case - 598 - INFO - FA Case >>> FA-0559116
+24/Aug/2022 07:56:40 PM - search_case - 621 - INFO - Status of FA-0559116 >>> Pending Closure Approval
+24/Aug/2022 07:56:40 PM - search_case - 628 - WARNING - Skip FA-0559116 >>> The status is not accept.
+24/Aug/2022 07:56:40 PM - search_case - 598 - INFO - FA Case >>> FA-0559117
+24/Aug/2022 07:56:45 PM - search_case - 621 - INFO - Status of FA-0559117 >>> Pending Closure Approval
+24/Aug/2022 07:56:45 PM - search_case - 628 - WARNING - Skip FA-0559117 >>> The status is not accept.
+24/Aug/2022 07:56:45 PM - search_case - 598 - INFO - FA Case >>> FA-0559549
+24/Aug/2022 07:56:51 PM - search_case - 621 - INFO - Status of FA-0559549 >>> Pending Closure Approval
+24/Aug/2022 07:56:51 PM - search_case - 628 - WARNING - Skip FA-0559549 >>> The status is not accept.
+24/Aug/2022 07:56:51 PM - search_case - 598 - INFO - FA Case >>> FA-0559722
+24/Aug/2022 07:56:56 PM - search_case - 621 - INFO - Status of FA-0559722 >>> Pending Closure Approval
+24/Aug/2022 07:56:56 PM - search_case - 628 - WARNING - Skip FA-0559722 >>> The status is not accept.
+24/Aug/2022 07:56:56 PM - search_case - 598 - INFO - FA Case >>> FA-0559739
+24/Aug/2022 07:57:04 PM - search_case - 621 - INFO - Status of FA-0559739 >>> Pending Closure Approval
+24/Aug/2022 07:57:04 PM - search_case - 628 - WARNING - Skip FA-0559739 >>> The status is not accept.
+24/Aug/2022 07:57:04 PM - search_case - 598 - INFO - FA Case >>> FA-0559818
+24/Aug/2022 07:57:09 PM - search_case - 621 - INFO - Status of FA-0559818 >>> Pending Closure Approval
+24/Aug/2022 07:57:09 PM - search_case - 628 - WARNING - Skip FA-0559818 >>> The status is not accept.
+24/Aug/2022 07:57:09 PM - search_case - 598 - INFO - FA Case >>> FA-0560012
+24/Aug/2022 07:57:14 PM - search_case - 621 - INFO - Status of FA-0560012 >>> Pending Closure Approval
+24/Aug/2022 07:57:14 PM - search_case - 628 - WARNING - Skip FA-0560012 >>> The status is not accept.
+24/Aug/2022 07:57:14 PM - search_case - 598 - INFO - FA Case >>> FA-0560025
+24/Aug/2022 07:57:19 PM - search_case - 621 - INFO - Status of FA-0560025 >>> Pending Closure Approval
+24/Aug/2022 07:57:19 PM - search_case - 628 - WARNING - Skip FA-0560025 >>> The status is not accept.
+24/Aug/2022 07:57:19 PM - search_case - 598 - INFO - FA Case >>> FA-0560045
+24/Aug/2022 07:57:23 PM - search_case - 621 - INFO - Status of FA-0560045 >>> Pending Closure Approval
+24/Aug/2022 07:57:23 PM - search_case - 628 - WARNING - Skip FA-0560045 >>> The status is not accept.
+24/Aug/2022 07:57:24 PM - search_case - 598 - INFO - FA Case >>> FA-0560047
+24/Aug/2022 07:57:28 PM - search_case - 621 - INFO - Status of FA-0560047 >>> Pending Closure Approval
+24/Aug/2022 07:57:28 PM - search_case - 628 - WARNING - Skip FA-0560047 >>> The status is not accept.
+24/Aug/2022 07:57:28 PM - search_case - 598 - INFO - FA Case >>> FA-0560205
+24/Aug/2022 07:57:33 PM - search_case - 621 - INFO - Status of FA-0560205 >>> Pending Closure Approval
+24/Aug/2022 07:57:33 PM - search_case - 628 - WARNING - Skip FA-0560205 >>> The status is not accept.
+24/Aug/2022 07:57:33 PM - search_case - 598 - INFO - FA Case >>> FA-0560319
+24/Aug/2022 07:57:38 PM - search_case - 621 - INFO - Status of FA-0560319 >>> Pending Closure Approval
+24/Aug/2022 07:57:38 PM - search_case - 628 - WARNING - Skip FA-0560319 >>> The status is not accept.
+24/Aug/2022 07:57:38 PM - search_case - 598 - INFO - FA Case >>> FA-0560447
+24/Aug/2022 07:57:43 PM - search_case - 621 - INFO - Status of FA-0560447 >>> Pending Closure Approval
+24/Aug/2022 07:57:43 PM - search_case - 628 - WARNING - Skip FA-0560447 >>> The status is not accept.
+24/Aug/2022 07:57:43 PM - search_case - 598 - INFO - FA Case >>> FA-0560461
+24/Aug/2022 07:57:48 PM - search_case - 621 - INFO - Status of FA-0560461 >>> Pending Closure Approval
+24/Aug/2022 07:57:48 PM - search_case - 628 - WARNING - Skip FA-0560461 >>> The status is not accept.
+24/Aug/2022 07:57:48 PM - search_case - 598 - INFO - FA Case >>> FA-0560566
+24/Aug/2022 07:57:53 PM - search_case - 621 - INFO - Status of FA-0560566 >>> Pending Closure Approval
+24/Aug/2022 07:57:53 PM - search_case - 628 - WARNING - Skip FA-0560566 >>> The status is not accept.
+24/Aug/2022 07:57:53 PM - search_case - 598 - INFO - FA Case >>> FA-0560595
+24/Aug/2022 07:57:57 PM - search_case - 621 - INFO - Status of FA-0560595 >>> Pending Closure Approval
+24/Aug/2022 07:57:57 PM - search_case - 628 - WARNING - Skip FA-0560595 >>> The status is not accept.
+24/Aug/2022 07:57:57 PM - search_case - 598 - INFO - FA Case >>> FA-0560603
+24/Aug/2022 07:58:02 PM - search_case - 621 - INFO - Status of FA-0560603 >>> Pending Closure Approval
+24/Aug/2022 07:58:02 PM - search_case - 628 - WARNING - Skip FA-0560603 >>> The status is not accept.
+24/Aug/2022 07:58:02 PM - search_case - 598 - INFO - FA Case >>> FA-0560831
+24/Aug/2022 07:58:08 PM - search_case - 621 - INFO - Status of FA-0560831 >>> Pending Closure Approval
+24/Aug/2022 07:58:08 PM - search_case - 628 - WARNING - Skip FA-0560831 >>> The status is not accept.
+24/Aug/2022 07:58:08 PM - search_case - 598 - INFO - FA Case >>> FA-0560833
+24/Aug/2022 07:58:13 PM - search_case - 621 - INFO - Status of FA-0560833 >>> Pending Closure Approval
+24/Aug/2022 07:58:13 PM - search_case - 628 - WARNING - Skip FA-0560833 >>> The status is not accept.
+24/Aug/2022 07:58:13 PM - search_case - 598 - INFO - FA Case >>> FA-0560963
+24/Aug/2022 07:58:18 PM - search_case - 621 - INFO - Status of FA-0560963 >>> Pending Closure Approval
+24/Aug/2022 07:58:18 PM - search_case - 628 - WARNING - Skip FA-0560963 >>> The status is not accept.
+24/Aug/2022 07:58:18 PM - search_case - 598 - INFO - FA Case >>> FA-0561226
+24/Aug/2022 07:58:23 PM - search_case - 621 - INFO - Status of FA-0561226 >>> Pending Closure Approval
+24/Aug/2022 07:58:23 PM - search_case - 628 - WARNING - Skip FA-0561226 >>> The status is not accept.
+24/Aug/2022 07:58:23 PM - search_case - 598 - INFO - FA Case >>> FA-0561285
+24/Aug/2022 07:58:27 PM - search_case - 621 - INFO - Status of FA-0561285 >>> Pending Closure Approval
+24/Aug/2022 07:58:27 PM - search_case - 628 - WARNING - Skip FA-0561285 >>> The status is not accept.
+24/Aug/2022 07:58:28 PM - search_case - 598 - INFO - FA Case >>> FA-0561305
+24/Aug/2022 07:58:32 PM - search_case - 621 - INFO - Status of FA-0561305 >>> Pending Closure Approval
+24/Aug/2022 07:58:32 PM - search_case - 628 - WARNING - Skip FA-0561305 >>> The status is not accept.
+24/Aug/2022 07:58:32 PM - search_case - 598 - INFO - FA Case >>> FA-0561342
+24/Aug/2022 07:58:38 PM - search_case - 621 - INFO - Status of FA-0561342 >>> Pending Closure Approval
+24/Aug/2022 07:58:38 PM - search_case - 628 - WARNING - Skip FA-0561342 >>> The status is not accept.
+24/Aug/2022 07:58:38 PM - search_case - 598 - INFO - FA Case >>> FA-0561343
+24/Aug/2022 07:58:43 PM - search_case - 621 - INFO - Status of FA-0561343 >>> Pending Closure Approval
+24/Aug/2022 07:58:43 PM - search_case - 628 - WARNING - Skip FA-0561343 >>> The status is not accept.
+24/Aug/2022 07:58:43 PM - search_case - 598 - INFO - FA Case >>> FA-0561503
+24/Aug/2022 07:58:47 PM - search_case - 621 - INFO - Status of FA-0561503 >>> Pending Closure Approval
+24/Aug/2022 07:58:47 PM - search_case - 628 - WARNING - Skip FA-0561503 >>> The status is not accept.
+24/Aug/2022 07:58:47 PM - search_case - 598 - INFO - FA Case >>> FA-0561571
+24/Aug/2022 07:58:52 PM - search_case - 621 - INFO - Status of FA-0561571 >>> Pending Closure Approval
+24/Aug/2022 07:58:52 PM - search_case - 628 - WARNING - Skip FA-0561571 >>> The status is not accept.
+24/Aug/2022 07:58:52 PM - search_case - 598 - INFO - FA Case >>> FA-0561600
+24/Aug/2022 07:58:56 PM - search_case - 621 - INFO - Status of FA-0561600 >>> Pending Closure Approval
+24/Aug/2022 07:58:56 PM - search_case - 628 - WARNING - Skip FA-0561600 >>> The status is not accept.
+24/Aug/2022 07:58:56 PM - search_case - 598 - INFO - FA Case >>> FA-0561604
+24/Aug/2022 07:59:01 PM - search_case - 621 - INFO - Status of FA-0561604 >>> Pending Closure Approval
+24/Aug/2022 07:59:01 PM - search_case - 628 - WARNING - Skip FA-0561604 >>> The status is not accept.
+24/Aug/2022 07:59:01 PM - search_case - 598 - INFO - FA Case >>> FA-0561623
+24/Aug/2022 07:59:06 PM - search_case - 621 - INFO - Status of FA-0561623 >>> Pending Closure Approval
+24/Aug/2022 07:59:06 PM - search_case - 628 - WARNING - Skip FA-0561623 >>> The status is not accept.
+24/Aug/2022 07:59:06 PM - search_case - 598 - INFO - FA Case >>> FA-0561801
+24/Aug/2022 07:59:11 PM - search_case - 621 - INFO - Status of FA-0561801 >>> Pending Closure Approval
+24/Aug/2022 07:59:11 PM - search_case - 628 - WARNING - Skip FA-0561801 >>> The status is not accept.
+24/Aug/2022 07:59:11 PM - search_case - 598 - INFO - FA Case >>> FA-0561925
+24/Aug/2022 07:59:16 PM - search_case - 621 - INFO - Status of FA-0561925 >>> Pending Closure Approval
+24/Aug/2022 07:59:16 PM - search_case - 628 - WARNING - Skip FA-0561925 >>> The status is not accept.
+24/Aug/2022 07:59:16 PM - search_case - 598 - INFO - FA Case >>> FA-0562059
+24/Aug/2022 07:59:20 PM - search_case - 621 - INFO - Status of FA-0562059 >>> Pending Closure Approval
+24/Aug/2022 07:59:20 PM - search_case - 628 - WARNING - Skip FA-0562059 >>> The status is not accept.
+24/Aug/2022 07:59:20 PM - search_case - 598 - INFO - FA Case >>> FA-0562159
+24/Aug/2022 07:59:25 PM - search_case - 621 - INFO - Status of FA-0562159 >>> Pending Closure Approval
+24/Aug/2022 07:59:25 PM - search_case - 628 - WARNING - Skip FA-0562159 >>> The status is not accept.
+24/Aug/2022 07:59:25 PM - search_case - 598 - INFO - FA Case >>> FA-0562399
+24/Aug/2022 07:59:30 PM - search_case - 621 - INFO - Status of FA-0562399 >>> Pending Closure Approval
+24/Aug/2022 07:59:30 PM - search_case - 628 - WARNING - Skip FA-0562399 >>> The status is not accept.
+24/Aug/2022 07:59:30 PM - search_case - 598 - INFO - FA Case >>> FA-0562432
+24/Aug/2022 07:59:35 PM - search_case - 621 - INFO - Status of FA-0562432 >>> Pending Closure Approval
+24/Aug/2022 07:59:35 PM - search_case - 628 - WARNING - Skip FA-0562432 >>> The status is not accept.
+24/Aug/2022 07:59:35 PM - search_case - 598 - INFO - FA Case >>> FA-0562734
+24/Aug/2022 07:59:40 PM - search_case - 621 - INFO - Status of FA-0562734 >>> Pending Closure Approval
+24/Aug/2022 07:59:40 PM - search_case - 628 - WARNING - Skip FA-0562734 >>> The status is not accept.
+24/Aug/2022 07:59:40 PM - search_case - 598 - INFO - FA Case >>> FA-0562890
+24/Aug/2022 07:59:45 PM - search_case - 621 - INFO - Status of FA-0562890 >>> Pending Closure Approval
+24/Aug/2022 07:59:45 PM - search_case - 628 - WARNING - Skip FA-0562890 >>> The status is not accept.
+24/Aug/2022 07:59:45 PM - search_case - 598 - INFO - FA Case >>> FA-0562936
+24/Aug/2022 07:59:49 PM - search_case - 621 - INFO - Status of FA-0562936 >>> Pending Closure Approval
+24/Aug/2022 07:59:49 PM - search_case - 628 - WARNING - Skip FA-0562936 >>> The status is not accept.
+24/Aug/2022 07:59:49 PM - search_case - 598 - INFO - FA Case >>> FA-0563198
+24/Aug/2022 07:59:54 PM - search_case - 621 - INFO - Status of FA-0563198 >>> Pending Closure Approval
+24/Aug/2022 07:59:54 PM - search_case - 628 - WARNING - Skip FA-0563198 >>> The status is not accept.
+24/Aug/2022 07:59:54 PM - search_case - 598 - INFO - FA Case >>> FA-0563321
+24/Aug/2022 07:59:59 PM - search_case - 621 - INFO - Status of FA-0563321 >>> Pending Closure Approval
+24/Aug/2022 07:59:59 PM - search_case - 628 - WARNING - Skip FA-0563321 >>> The status is not accept.
+24/Aug/2022 07:59:59 PM - search_case - 598 - INFO - FA Case >>> FA-0563322
+24/Aug/2022 08:00:04 PM - search_case - 621 - INFO - Status of FA-0563322 >>> Pending Closure Approval
+24/Aug/2022 08:00:04 PM - search_case - 628 - WARNING - Skip FA-0563322 >>> The status is not accept.
+24/Aug/2022 08:00:04 PM - search_case - 598 - INFO - FA Case >>> FA-0563328
+24/Aug/2022 08:00:08 PM - search_case - 621 - INFO - Status of FA-0563328 >>> Pending Closure Approval
+24/Aug/2022 08:00:08 PM - search_case - 628 - WARNING - Skip FA-0563328 >>> The status is not accept.
+24/Aug/2022 08:00:08 PM - search_case - 598 - INFO - FA Case >>> FA-0563367
+24/Aug/2022 08:00:13 PM - search_case - 621 - INFO - Status of FA-0563367 >>> Material Disposition
+24/Aug/2022 08:00:13 PM - search_case - 628 - WARNING - Skip FA-0563367 >>> The status is not accept.
+24/Aug/2022 08:00:13 PM - main - 808 - INFO - INCORECT FA STATUS DICT: {'FA-0553642': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0553855': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0553936': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0554709': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0554845': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0555189': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0555828': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0556003': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0556030': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0556187': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0556641': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0556681': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0557998': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0558375': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0558553': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0558554': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0558700': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0558702': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0558896': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0558967': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0559116': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0559117': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0559549': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0559722': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0559739': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0559818': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0560012': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0560025': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0560045': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0560047': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0560205': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0560319': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0560447': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0560461': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0560566': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0560595': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0560603': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0560831': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0560833': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0560963': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0561226': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0561285': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0561305': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0561342': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0561343': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0561503': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0561571': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0561600': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0561604': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0561623': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0561801': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0561925': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0562059': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0562159': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0562399': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0562432': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0562734': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0562890': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0562936': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0563198': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0563321': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0563322': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0563328': 'FA Status Value : Pending Closure Approval  ,  Expected Status : Inspection & Review', 'FA-0563367': 'FA Status Value : Material Disposition  ,  Expected Status : Inspection & Review'}
+24/Aug/2022 08:00:13 PM - main - 810 - INFO - CAN NOT UPDATE DICT: {}
+24/Aug/2022 08:00:13 PM - <module> - 827 - CRITICAL - Traceback Error: NoneType: None
+

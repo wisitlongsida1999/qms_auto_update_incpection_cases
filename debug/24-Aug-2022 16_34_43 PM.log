@@ -1,0 +1,82 @@
+24/Aug/2022 04:34:44 PM - extract_data_excel - 159 - INFO -    Site Received Serial# QIT Disposition         FA#  Problem Description Case Owner                 PID  Unnamed: 6  80
+0            ONT18310341           Scrap  FA-0553642                  NaN    anuchma         SFP-10G-LR=         NaN NaN
+1            JFQ2127302K           Scrap  FA-0553855                  NaN    anuchma  QSFP-100G-CWDM4-S=         NaN NaN
+2            JUR1830BKLQ           Scrap  FA-0553936                  NaN    anuchma            FET-10G=         NaN NaN
+3            JUR1830BJ7Q           Scrap  FA-0553936                  NaN    anuchma            FET-10G=         NaN NaN
+4            OPM2033012L           Scrap  FA-0554709                  NaN    anuchma         GLC-LH-SMD=         NaN NaN
+..                   ...             ...         ...                  ...        ...                 ...         ...  ..
+75           FNS1829048S           Scrap  FA-0563198                  NaN    anuchma       QSFP-40G-LR4=         NaN NaN
+76           AGJ2045R35W           Scrap  FA-0563321                  NaN    anuchma         GLC-SX-MMD=         NaN NaN
+77           FNS17211E8U           Scrap  FA-0563322                  NaN    anuchma         GLC-SX-MMD=         NaN NaN
+78           AGA1747R92C           Scrap  FA-0563328                  NaN    anuchma         GLC-SX-MMD=         NaN NaN
+79           FNS1926197A           Scrap  FA-0563367                  NaN    anuchma         GLC-LH-SMD=         NaN NaN
+
+[80 rows x 8 columns]
+24/Aug/2022 04:34:44 PM - extract_data_excel - 165 - INFO - Number of rows >>> 80
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0553642{'ONT18310341': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LR=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0553855{'JFQ2127302K': ['Scrap', 'nan', 'anuchma', 'QSFP-100G-CWDM4-S=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0553936{'JUR1830BKLQ': ['Scrap', 'nan', 'anuchma', 'FET-10G='], 'JUR1830BJ7Q': ['Scrap', 'nan', 'anuchma', 'FET-10G=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0554709{'OPM2033012L': ['Scrap', 'nan', 'anuchma', 'GLC-LH-SMD=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0554845{'JUR2021B9DL': ['Scrap', 'nan', 'anuchma', 'FET-10G='], 'JUS1728BMH3': ['Scrap', 'nan', 'anuchma', 'FET-10G='], 'JUR1921BJW3': ['Scrap', 'nan', 'anuchma', 'FET-10G=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0555189{'JUR2114B1HG': ['Scrap', 'nan', 'anuchma', 'FET-10G=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0555828{'JUR2002B4CU': ['Scrap', 'nan', 'anuchma', 'FET-10G='], 'JUR2002B3D0': ['Scrap', 'nan', 'anuchma', 'FET-10G='], 'JUR2002B4C2': ['Scrap', 'nan', 'anuchma', 'FET-10G='], 'JUR2002B3DE': ['Scrap', 'nan', 'anuchma', 'FET-10G='], 'JUR2002B3DL': ['Scrap', 'nan', 'anuchma', 'FET-10G='], 'JUR2002B4R4': ['Scrap', 'nan', 'anuchma', 'FET-10G=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0556003{'JFQ212830EJ': ['Scrap', 'nan', 'anuchma', 'QSFP-100G-CWDM4-S=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0556030{'AVP1904S04L': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-SR4-S=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0556187{'JFQ2130307C': ['Scrap', 'nan', 'anuchma', 'QSFP-100G-CWDM4-S=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0556641{'JFS1917100W': ['Scrap', 'nan', 'anuchma', 'DWDM-SFP10G-C=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0556681{'FNS193501DK': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LR=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0557998{'FNS193205QL': ['Scrap', 'nan', 'anuchma', 'GLC-SX-MMD=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0558375{'AVP1830S2T2': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-CSR4=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0558553{'AVF2043U18P': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-SR-BD=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0558554{'AVF2042U2K4': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-SR-BD=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0558700{'AVM2112U2H5': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-SR-BD='], 'AVM2112U2GU': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-SR-BD=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0558702{'AVM2038U1GC': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-SR-BD=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0558896{'FNS17071C0S': ['Scrap', 'nan', 'anuchma', 'GLC-SX-MMD='], 'OPM203904JN': ['Scrap', 'nan', 'anuchma', 'GLC-SX-MMD=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0558967{'FNS19150GJD': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LR=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0559116{'AVF2029U0KS': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-SR-BD='], 'AVF2038U18N': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-SR-BD=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0559117{'AVM2043U3S7': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-SR-BD=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0559549{'AVM2039U243': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-SR-BD=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0559722{'ONT174502JJ': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LR=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0559739{'FIW202100MD': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-CSR4=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0559818{'AVM2113U4W4': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-SR-BD=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0560012{'AVF2051U3JN': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-SR-BD=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0560025{'FNS17210W5J': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LR=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0560045{'INL21160009': ['Scrap', 'nan', 'anuchma', 'QSFP-4X10G-LR-S=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0560047{'AVP1727S0ZY': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-CSR4=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0560205{'OPT19110305': ['Scrap', 'nan', 'anuchma', 'GLC-GE-100FX=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0560319{'FNS18390WFY': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LR=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0560447{'FNS190801UQ': ['Scrap', 'nan', 'anuchma', 'GLC-SX-MMD=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0560461{'FIW211003QL': ['Scrap', 'nan', 'anuchma', 'QSFP-100G-AOC7M=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0560566{'AGD2132Z2FE': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LRM='], 'AGD2132Z1GE': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LRM='], 'AGD2132Z1P1': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LRM=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0560595{'FNS18150R5S': ['Scrap', 'nan', 'anuchma', 'X2-10GB-SR=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0560603{'AVJ213233YU': ['Scrap', 'nan', 'anuchma', 'GLC-LH-SMD=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0560831{'JFX1712A038': ['Scrap', 'nan', 'anuchma', 'DWDM-XFP-C=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0560833{'ONT1735000T': ['Scrap', 'nan', 'anuchma', 'XFP-10G-MM-SR=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0560963{'FNS193612FL': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LR=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0561226{'FNS21270ZZR': ['Scrap', 'nan', 'anuchma', 'QSFP-100G-LR4-S=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0561285{'FNS12380AG6': ['Scrap', 'nan', 'anuchma', 'X2-10GB-SR='], 'FNS113005XT': ['Scrap', 'nan', 'anuchma', 'X2-10GB-SR=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0561305{'FNS19350D5T': ['Scrap', 'nan', 'anuchma', 'XFP-10G-MM-SR=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0561342{'ECL2017000H': ['Scrap', 'nan', 'anuchma', 'SFP-10G-ZR=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0561343{'FLJ2024K025': ['Scrap', 'nan', 'anuchma', 'SFP-10G-ZR=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0561503{'FNS19381C74': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LR=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0561571{'AGD1621V170': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LRM=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0561600{'ONT203700NH': ['Scrap', 'nan', 'anuchma', 'DWDM-SFP10G-C=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0561604{'ONT2050007U': ['Scrap', 'nan', 'anuchma', 'SFP-10G-ER=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0561623{'JFQ21301010': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-SR4-S=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0561801{'FNS211514Y4': ['Scrap', 'nan', 'anuchma', 'QSFP-100G-SM-SR=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0561925{'FNS20051JWE': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LR='], 'ONT1529033H': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LR=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0562059{'ONT150703SW': ['Scrap', 'nan', 'anuchma', 'X2-10GB-SR=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0562159{'ONT15050195': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LR='], 'ONT1505013D': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LR=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0562399{'FNS192626TA': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LR=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0562432{'FNS212718XG': ['Scrap', 'nan', 'anuchma', 'QSFP-100G-LR4-S=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0562734{'FNS16301B1C': ['Scrap', 'nan', 'anuchma', 'XFP-10G-MM-SR=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0562890{'FNS21200521': ['Scrap', 'nan', 'anuchma', 'GLC-ZX-SMD=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0562936{'FOX1710XY8T': ['Scrap', 'nan', 'anuchma', 'CVR-X2-SFP10G=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0563198{'FNS1829048S': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-LR4=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0563321{'AGJ2045R35W': ['Scrap', 'nan', 'anuchma', 'GLC-SX-MMD=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0563322{'FNS17211E8U': ['Scrap', 'nan', 'anuchma', 'GLC-SX-MMD=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0563328{'AGA1747R92C': ['Scrap', 'nan', 'anuchma', 'GLC-SX-MMD=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 179 - DEBUG - FA-0563367{'FNS1926197A': ['Scrap', 'nan', 'anuchma', 'GLC-LH-SMD=']}
+24/Aug/2022 04:34:44 PM - extract_data_excel - 181 - INFO - FA Case number >>> 64 Cases
+24/Aug/2022 04:34:44 PM - <module> - 202 - CRITICAL - Traceback Error: NoneType: None
+
