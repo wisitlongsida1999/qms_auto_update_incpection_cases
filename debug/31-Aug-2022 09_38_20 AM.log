@@ -1,0 +1,841 @@
+31/Aug/2022 09:38:33 AM - login - 94 - INFO - Wait for Universal Prompt render:1
+31/Aug/2022 09:38:53 AM - login - 119 - INFO - Wait for count_duo_pass:1
+31/Aug/2022 09:38:54 AM - login - 119 - INFO - Wait for count_duo_pass:2
+31/Aug/2022 09:39:10 AM - login - 129 - INFO - Login to QIS is success!!!
+31/Aug/2022 09:39:22 AM - login - 137 - DEBUG - Main Page:CDwindow-4022C3D128084862C4418CF6079D82F7
+31/Aug/2022 09:39:25 AM - extract_data_excel - 166 - INFO -    Site Received Serial# QIT Disposition  ... Unnamed: 6  46
+0            JUS1640B2XP           Scrap  ...        NaN NaN
+1            JUS1640B2FX           Scrap  ...        NaN NaN
+2            FNS19360ETX           Scrap  ...        NaN NaN
+3            FNS21280USU           Scrap  ...        NaN NaN
+4            AVJ18253PCU           Scrap  ...        NaN NaN
+5            AVM2044U3G2           Scrap  ...        NaN NaN
+6            AVF2036U3WF           Scrap  ...        NaN NaN
+7            ONT174202UK           Scrap  ...        NaN NaN
+8            FNS201316FB           Scrap  ...        NaN NaN
+9            FNS20380Z93           Scrap  ...        NaN NaN
+10           FNS19260ESW           Scrap  ...        NaN NaN
+11           MDM2125056F           Scrap  ...        NaN NaN
+12           AGA1642R2GS           Scrap  ...        NaN NaN
+13           ONT100500EE           Scrap  ...        NaN NaN
+14           ONT100500D2           Scrap  ...        NaN NaN
+15           SPC161302GP           Scrap  ...        NaN NaN
+16           FNS21280UXU           Scrap  ...        NaN NaN
+17           ONT21210063           Scrap  ...        NaN NaN
+18           FNS18030VYK           Scrap  ...        NaN NaN
+19           FIW210904F9           Scrap  ...        NaN NaN
+20           FNS17490RQD           Scrap  ...        NaN NaN
+21           AVJ19463TK0           Scrap  ...        NaN NaN
+22           FNS194803PK           Scrap  ...        NaN NaN
+23           AVJ20283AJ3           Scrap  ...        NaN NaN
+24           AVJ19433651           Scrap  ...        NaN NaN
+25           AVJ19063HDC           Scrap  ...        NaN NaN
+26           OPM20330HK7           Scrap  ...        NaN NaN
+27           OPM20330GMF           Scrap  ...        NaN NaN
+28           AVJ19063KF5           Scrap  ...        NaN NaN
+29           OPT2127004A           Scrap  ...        NaN NaN
+30           AVP1830S2Q2           Scrap  ...        NaN NaN
+31           FIW204100KY           Scrap  ...        NaN NaN
+32           DTS2047A045           Scrap  ...        NaN NaN
+33           FNS20250VKM           Scrap  ...        NaN NaN
+34           ACW2129028G           Scrap  ...        NaN NaN
+35           JFQ21271016           Scrap  ...        NaN NaN
+36           A4Z2101K039           Scrap  ...        NaN NaN
+37           FNS19080MA1           Scrap  ...        NaN NaN
+38           AVF2036G01A           Scrap  ...        NaN NaN
+39           AVJ193933KB           Scrap  ...        NaN NaN
+40           FNS1407048P           Scrap  ...        NaN NaN
+41           FNS14060RRX           Scrap  ...        NaN NaN
+42           AVJ203635A9           Scrap  ...        NaN NaN
+43           MDM17370086           Scrap  ...        NaN NaN
+44           FNS192718WR           Scrap  ...        NaN NaN
+45           FNS18201EBL           Scrap  ...        NaN NaN
+
+[46 rows x 8 columns]
+31/Aug/2022 09:39:25 AM - extract_data_excel - 172 - INFO - Number of rows >>> 46
+31/Aug/2022 09:39:25 AM - extract_data_excel - 198 - DEBUG - After Filter FA case that already done.
+31/Aug/2022 09:39:25 AM - extract_data_excel - 202 - DEBUG - FA-0563079{'FIW210904F9': ['Scrap', 'nan', 'anuchma', 'QSFP-100G-AOC10M=']}
+31/Aug/2022 09:39:25 AM - extract_data_excel - 202 - DEBUG - FA-0563324{'FNS17490RQD': ['Scrap', 'nan', 'anuchma', 'GLC-SX-MMD=']}
+31/Aug/2022 09:39:25 AM - extract_data_excel - 202 - DEBUG - FA-0563365{'AVJ19463TK0': ['Scrap', 'nan', 'anuchma', 'GLC-LH-SMD=']}
+31/Aug/2022 09:39:25 AM - extract_data_excel - 202 - DEBUG - FA-0563366{'FNS194803PK': ['Scrap', 'nan', 'anuchma', 'GLC-LH-SMD=']}
+31/Aug/2022 09:39:25 AM - extract_data_excel - 202 - DEBUG - FA-0563368{'AVJ20283AJ3': ['Scrap', 'nan', 'anuchma', 'GLC-LH-SMD=']}
+31/Aug/2022 09:39:25 AM - extract_data_excel - 202 - DEBUG - FA-0563369{'AVJ19433651': ['Scrap', 'nan', 'anuchma', 'GLC-LH-SMD=']}
+31/Aug/2022 09:39:25 AM - extract_data_excel - 202 - DEBUG - FA-0563370{'AVJ19063HDC': ['Scrap', 'nan', 'anuchma', 'GLC-LH-SMD='], 'OPM20330HK7': ['Scrap', 'nan', 'anuchma', 'GLC-LH-SMD='], 'OPM20330GMF': ['Scrap', 'nan', 'anuchma', 'GLC-LH-SMD='], 'AVJ19063KF5': ['Scrap', 'nan', 'anuchma', 'GLC-LH-SMD=']}
+31/Aug/2022 09:39:25 AM - extract_data_excel - 202 - DEBUG - FA-0563392{'OPT2127004A': ['Scrap', 'nan', 'anuchma', 'SFP-10G-LR-X=']}
+31/Aug/2022 09:39:25 AM - extract_data_excel - 202 - DEBUG - FA-0563882{'AVP1830S2Q2': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-CSR4='], 'FIW204100KY': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-CSR4=']}
+31/Aug/2022 09:39:25 AM - extract_data_excel - 202 - DEBUG - FA-0563986{'DTS2047A045': ['Scrap', 'nan', 'anuchma', 'QSFP-H40G-AOC3M=']}
+31/Aug/2022 09:39:25 AM - extract_data_excel - 202 - DEBUG - FA-0564279{'FNS20250VKM': ['Scrap', 'nan', 'anuchma', 'GLC-SX-MMD='], 'ACW2129028G': ['Scrap', 'nan', 'anuchma', 'GLC-SX-MMD=']}
+31/Aug/2022 09:39:25 AM - extract_data_excel - 202 - DEBUG - FA-0564360{'JFQ21271016': ['Scrap', 'nan', 'anuchma', 'QSFP-40G-SR4-S=']}
+31/Aug/2022 09:39:25 AM - extract_data_excel - 202 - DEBUG - FA-0564488{'A4Z2101K039': ['Scrap', 'nan', 'anuchma', 'SFP-10G-AOC3M=']}
+31/Aug/2022 09:39:25 AM - extract_data_excel - 202 - DEBUG - FA-0564531{'FNS19080MA1': ['Scrap', 'nan', 'anuchma', 'GLC-LH-SMD=']}
+31/Aug/2022 09:39:25 AM - extract_data_excel - 202 - DEBUG - FA-0564619{'AVF2036G01A': ['Scrap', 'nan', 'anuchma', 'QSFP-100G-SR4-S=']}
+31/Aug/2022 09:39:25 AM - extract_data_excel - 202 - DEBUG - FA-0564627{'AVJ193933KB': ['Scrap', 'nan', 'anuchma', 'GLC-LH-SMD=']}
+31/Aug/2022 09:39:25 AM - extract_data_excel - 202 - DEBUG - FA-0564741{'FNS1407048P': ['Scrap', 'nan', 'anuchma', 'GLC-LX-SM-RGD='], 'FNS14060RRX': ['Scrap', 'nan', 'anuchma', 'GLC-LX-SM-RGD=']}
+31/Aug/2022 09:39:25 AM - extract_data_excel - 202 - DEBUG - FA-0564864{'AVJ203635A9': ['Scrap', 'nan', 'anuchma', 'GLC-LH-SMD=']}
+31/Aug/2022 09:39:25 AM - extract_data_excel - 202 - DEBUG - FA-0564865{'MDM17370086': ['Scrap', 'nan', 'anuchma', 'QSFP-H40G-CU5M=']}
+31/Aug/2022 09:39:25 AM - extract_data_excel - 202 - DEBUG - FA-0565066{'FNS192718WR': ['Scrap', 'nan', 'anuchma', 'GLC-SX-MMD=']}
+31/Aug/2022 09:39:25 AM - extract_data_excel - 202 - DEBUG - FA-0565633{'FNS18201EBL': ['Scrap', 'nan', 'anuchma', 'GLC-LH-SMD=']}
+31/Aug/2022 09:39:25 AM - extract_data_excel - 204 - INFO - FA Case number >>> 21 Cases
+31/Aug/2022 09:39:25 AM - search_case - 600 - INFO - FA Case >>> FA-0563079
+31/Aug/2022 09:39:30 AM - search_case - 623 - INFO - Status of FA-0563079 >>> Inspection & Review
+31/Aug/2022 09:39:31 AM - search_case - 600 - INFO - FA Case >>> FA-0563079
+31/Aug/2022 09:39:36 AM - search_case - 623 - INFO - Status of FA-0563079 >>> Inspection & Review
+31/Aug/2022 09:39:38 AM - update_qms_data - 234 - DEBUG - 1
+31/Aug/2022 09:39:39 AM - update_qms_data - 259 - DEBUG - Check Sort is pass.
+31/Aug/2022 09:39:40 AM - update_qms_data - 273 - INFO - Exact rows >>> 1 Rows number >>> 2
+31/Aug/2022 09:39:40 AM - update_qms_data - 287 - DEBUG - <selenium.webdriver.remote.webelement.WebElement (session="cce2384980da994173e3a5bf6bf77b6a", element="4a7cd992-f92a-4c7d-ac96-5f1ea4d24e56")>
+31/Aug/2022 09:39:40 AM - update_qms_data - 314 - INFO - FA FLAG >>> Yes
+31/Aug/2022 09:39:40 AM - update_qms_data - 332 - INFO - Serial Number >>> FIW210904F9
+31/Aug/2022 09:39:40 AM - update_qms_data - 336 - INFO - Dispose to >>> Scrap
+31/Aug/2022 09:39:42 AM - update_qms_data - 383 - DEBUG - Check Render >>> PID Result/Failure Mode/Failure Code : PID Result/Failure Mode/Failure Code
+31/Aug/2022 09:39:43 AM - search_case - 600 - INFO - FA Case >>> FA-0563079
+31/Aug/2022 09:39:44 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:39:46 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:39:48 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:39:50 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:39:52 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:39:54 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:40:02 AM - search_case - 623 - INFO - Status of FA-0563079 >>> Inspection & Review
+31/Aug/2022 09:40:04 AM - move_case - 518 - DEBUG - No. Of window handles2: 2 >>>  ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-D9CECD5BC218CA52D441117B2DAC520B']
+31/Aug/2022 09:40:06 AM - move_case - 525 - DEBUG - Change Status Window: Change Status >>> ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-D9CECD5BC218CA52D441117B2DAC520B']
+31/Aug/2022 09:41:14 AM - search_case - 600 - INFO - FA Case >>> FA-0563079
+31/Aug/2022 09:41:19 AM - search_case - 623 - INFO - Status of FA-0563079 >>> Pending Closure Approval
+31/Aug/2022 09:41:30 AM - search_case - 600 - INFO - FA Case >>> FA-0563324
+31/Aug/2022 09:41:35 AM - search_case - 623 - INFO - Status of FA-0563324 >>> Inspection & Review
+31/Aug/2022 09:41:36 AM - search_case - 600 - INFO - FA Case >>> FA-0563324
+31/Aug/2022 09:41:42 AM - search_case - 623 - INFO - Status of FA-0563324 >>> Inspection & Review
+31/Aug/2022 09:41:44 AM - update_qms_data - 234 - DEBUG - 1
+31/Aug/2022 09:41:45 AM - update_qms_data - 259 - DEBUG - Check Sort is pass.
+31/Aug/2022 09:41:46 AM - update_qms_data - 273 - INFO - Exact rows >>> 1 Rows number >>> 2
+31/Aug/2022 09:41:46 AM - update_qms_data - 287 - DEBUG - <selenium.webdriver.remote.webelement.WebElement (session="cce2384980da994173e3a5bf6bf77b6a", element="872fc491-3a3c-447a-bafb-394f94c0a8f2")>
+31/Aug/2022 09:41:46 AM - update_qms_data - 314 - INFO - FA FLAG >>> Yes
+31/Aug/2022 09:41:46 AM - update_qms_data - 332 - INFO - Serial Number >>> FNS17490RQD
+31/Aug/2022 09:41:46 AM - update_qms_data - 336 - INFO - Dispose to >>> Scrap
+31/Aug/2022 09:41:48 AM - update_qms_data - 383 - DEBUG - Check Render >>> PID Result/Failure Mode/Failure Code : PID Result/Failure Mode/Failure Code
+31/Aug/2022 09:41:48 AM - search_case - 600 - INFO - FA Case >>> FA-0563324
+31/Aug/2022 09:41:49 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:41:51 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:41:53 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:41:55 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:41:57 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:41:59 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:42:06 AM - search_case - 623 - INFO - Status of FA-0563324 >>> Inspection & Review
+31/Aug/2022 09:42:08 AM - move_case - 518 - DEBUG - No. Of window handles2: 2 >>>  ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-7B966C3940D86340990B077CB6DD3408']
+31/Aug/2022 09:42:08 AM - move_case - 525 - DEBUG - Change Status Window: Change Status >>> ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-7B966C3940D86340990B077CB6DD3408']
+31/Aug/2022 09:43:03 AM - search_case - 600 - INFO - FA Case >>> FA-0563324
+31/Aug/2022 09:43:08 AM - search_case - 623 - INFO - Status of FA-0563324 >>> Pending Closure Approval
+31/Aug/2022 09:43:18 AM - search_case - 600 - INFO - FA Case >>> FA-0563365
+31/Aug/2022 09:43:23 AM - search_case - 623 - INFO - Status of FA-0563365 >>> Inspection & Review
+31/Aug/2022 09:43:24 AM - search_case - 600 - INFO - FA Case >>> FA-0563365
+31/Aug/2022 09:43:29 AM - search_case - 623 - INFO - Status of FA-0563365 >>> Inspection & Review
+31/Aug/2022 09:43:31 AM - update_qms_data - 234 - DEBUG - 1
+31/Aug/2022 09:43:32 AM - update_qms_data - 259 - DEBUG - Check Sort is pass.
+31/Aug/2022 09:43:33 AM - update_qms_data - 273 - INFO - Exact rows >>> 1 Rows number >>> 2
+31/Aug/2022 09:43:33 AM - update_qms_data - 287 - DEBUG - <selenium.webdriver.remote.webelement.WebElement (session="cce2384980da994173e3a5bf6bf77b6a", element="dc8eceb6-2663-43ef-97e7-31f89a4c0a53")>
+31/Aug/2022 09:43:33 AM - update_qms_data - 314 - INFO - FA FLAG >>> Yes
+31/Aug/2022 09:43:33 AM - update_qms_data - 332 - INFO - Serial Number >>> AVJ19463TK0
+31/Aug/2022 09:43:33 AM - update_qms_data - 336 - INFO - Dispose to >>> Scrap
+31/Aug/2022 09:43:35 AM - update_qms_data - 383 - DEBUG - Check Render >>> PID Result/Failure Mode/Failure Code : PID Result/Failure Mode/Failure Code
+31/Aug/2022 09:43:35 AM - search_case - 600 - INFO - FA Case >>> FA-0563365
+31/Aug/2022 09:43:36 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:43:38 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:43:40 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:43:42 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:43:44 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:43:47 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:43:49 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:43:54 AM - search_case - 623 - INFO - Status of FA-0563365 >>> Inspection & Review
+31/Aug/2022 09:43:56 AM - move_case - 518 - DEBUG - No. Of window handles2: 2 >>>  ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-1593A433A2E3C80D0B00EB91826F2DEF']
+31/Aug/2022 09:43:56 AM - move_case - 525 - DEBUG - Change Status Window: Change Status >>> ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-1593A433A2E3C80D0B00EB91826F2DEF']
+31/Aug/2022 09:44:56 AM - search_case - 600 - INFO - FA Case >>> FA-0563365
+31/Aug/2022 09:45:01 AM - search_case - 623 - INFO - Status of FA-0563365 >>> Pending Closure Approval
+31/Aug/2022 09:45:11 AM - search_case - 600 - INFO - FA Case >>> FA-0563366
+31/Aug/2022 09:45:16 AM - search_case - 623 - INFO - Status of FA-0563366 >>> Inspection & Review
+31/Aug/2022 09:45:17 AM - search_case - 600 - INFO - FA Case >>> FA-0563366
+31/Aug/2022 09:45:22 AM - search_case - 623 - INFO - Status of FA-0563366 >>> Inspection & Review
+31/Aug/2022 09:45:25 AM - update_qms_data - 234 - DEBUG - 1
+31/Aug/2022 09:45:26 AM - update_qms_data - 259 - DEBUG - Check Sort is pass.
+31/Aug/2022 09:45:27 AM - update_qms_data - 273 - INFO - Exact rows >>> 1 Rows number >>> 2
+31/Aug/2022 09:45:27 AM - update_qms_data - 287 - DEBUG - <selenium.webdriver.remote.webelement.WebElement (session="cce2384980da994173e3a5bf6bf77b6a", element="6a44cb18-c8f0-4f50-9313-478e6a0d070f")>
+31/Aug/2022 09:45:27 AM - update_qms_data - 314 - INFO - FA FLAG >>> Yes
+31/Aug/2022 09:45:27 AM - update_qms_data - 332 - INFO - Serial Number >>> FNS194803PK
+31/Aug/2022 09:45:27 AM - update_qms_data - 336 - INFO - Dispose to >>> Scrap
+31/Aug/2022 09:45:28 AM - update_qms_data - 383 - DEBUG - Check Render >>> PID Result/Failure Mode/Failure Code : PID Result/Failure Mode/Failure Code
+31/Aug/2022 09:45:28 AM - search_case - 600 - INFO - FA Case >>> FA-0563366
+31/Aug/2022 09:45:29 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:45:32 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:45:34 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:45:36 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:45:38 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:45:40 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:45:47 AM - search_case - 623 - INFO - Status of FA-0563366 >>> Inspection & Review
+31/Aug/2022 09:45:48 AM - move_case - 518 - DEBUG - No. Of window handles2: 2 >>>  ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-745176B796F05219F5369BF6C77B5C6E']
+31/Aug/2022 09:45:48 AM - move_case - 525 - DEBUG - Change Status Window: Change Status >>> ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-745176B796F05219F5369BF6C77B5C6E']
+31/Aug/2022 09:46:15 AM - search_case - 600 - INFO - FA Case >>> FA-0563366
+31/Aug/2022 09:46:19 AM - search_case - 623 - INFO - Status of FA-0563366 >>> Pending Closure Approval
+31/Aug/2022 09:46:48 AM - search_case - 600 - INFO - FA Case >>> FA-0563368
+31/Aug/2022 09:46:53 AM - search_case - 623 - INFO - Status of FA-0563368 >>> Inspection & Review
+31/Aug/2022 09:46:54 AM - search_case - 600 - INFO - FA Case >>> FA-0563368
+31/Aug/2022 09:46:59 AM - search_case - 623 - INFO - Status of FA-0563368 >>> Inspection & Review
+31/Aug/2022 09:47:01 AM - update_qms_data - 234 - DEBUG - 1
+31/Aug/2022 09:47:02 AM - update_qms_data - 259 - DEBUG - Check Sort is pass.
+31/Aug/2022 09:47:03 AM - update_qms_data - 273 - INFO - Exact rows >>> 1 Rows number >>> 2
+31/Aug/2022 09:47:03 AM - update_qms_data - 287 - DEBUG - <selenium.webdriver.remote.webelement.WebElement (session="cce2384980da994173e3a5bf6bf77b6a", element="ad51274a-5924-401f-b1b3-19df53767c45")>
+31/Aug/2022 09:47:03 AM - update_qms_data - 314 - INFO - FA FLAG >>> Yes
+31/Aug/2022 09:47:03 AM - update_qms_data - 332 - INFO - Serial Number >>> AVJ20283AJ3
+31/Aug/2022 09:47:03 AM - update_qms_data - 336 - INFO - Dispose to >>> Scrap
+31/Aug/2022 09:47:05 AM - update_qms_data - 383 - DEBUG - Check Render >>> PID Result/Failure Mode/Failure Code : PID Result/Failure Mode/Failure Code
+31/Aug/2022 09:47:05 AM - search_case - 600 - INFO - FA Case >>> FA-0563368
+31/Aug/2022 09:47:06 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:47:08 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:47:10 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:47:13 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:47:15 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:47:17 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:47:22 AM - search_case - 623 - INFO - Status of FA-0563368 >>> Inspection & Review
+31/Aug/2022 09:47:24 AM - move_case - 518 - DEBUG - No. Of window handles2: 2 >>>  ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-5401835B34A9180B1A63C6EDA39DFF5F']
+31/Aug/2022 09:47:24 AM - move_case - 525 - DEBUG - Change Status Window: Change Status >>> ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-5401835B34A9180B1A63C6EDA39DFF5F']
+31/Aug/2022 09:47:48 AM - search_case - 600 - INFO - FA Case >>> FA-0563368
+31/Aug/2022 09:47:53 AM - search_case - 623 - INFO - Status of FA-0563368 >>> Pending Closure Approval
+31/Aug/2022 09:48:03 AM - search_case - 600 - INFO - FA Case >>> FA-0563369
+31/Aug/2022 09:48:08 AM - search_case - 623 - INFO - Status of FA-0563369 >>> Inspection & Review
+31/Aug/2022 09:48:09 AM - search_case - 600 - INFO - FA Case >>> FA-0563369
+31/Aug/2022 09:48:15 AM - search_case - 623 - INFO - Status of FA-0563369 >>> Inspection & Review
+31/Aug/2022 09:48:17 AM - update_qms_data - 234 - DEBUG - 2
+31/Aug/2022 09:48:18 AM - update_qms_data - 259 - DEBUG - Check Sort is pass.
+31/Aug/2022 09:48:19 AM - update_qms_data - 273 - INFO - Exact rows >>> 2 Rows number >>> 4
+31/Aug/2022 09:48:19 AM - update_qms_data - 287 - DEBUG - <selenium.webdriver.remote.webelement.WebElement (session="cce2384980da994173e3a5bf6bf77b6a", element="a39f92ce-9dab-4f54-a1a6-7a738248f4c5")>
+31/Aug/2022 09:48:19 AM - update_qms_data - 314 - INFO - FA FLAG >>> Cancel
+31/Aug/2022 09:48:19 AM - update_qms_data - 287 - DEBUG - <selenium.webdriver.remote.webelement.WebElement (session="cce2384980da994173e3a5bf6bf77b6a", element="9f6120e7-331c-444a-ba7b-beefb2850f8d")>
+31/Aug/2022 09:48:19 AM - update_qms_data - 314 - INFO - FA FLAG >>> Yes
+31/Aug/2022 09:48:19 AM - update_qms_data - 332 - INFO - Serial Number >>> AVJ19433651
+31/Aug/2022 09:48:19 AM - update_qms_data - 336 - INFO - Dispose to >>> Scrap
+31/Aug/2022 09:48:20 AM - update_qms_data - 383 - DEBUG - Check Render >>> PID Result/Failure Mode/Failure Code : PID Result/Failure Mode/Failure Code
+31/Aug/2022 09:48:21 AM - search_case - 600 - INFO - FA Case >>> FA-0563369
+31/Aug/2022 09:48:22 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:48:24 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:48:26 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:48:28 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:48:30 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:48:32 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:48:34 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:48:36 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:48:38 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:48:41 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:48:43 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:48:45 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:48:47 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:48:49 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:48:51 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:48:53 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:48:55 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:48:57 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:48:59 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:49:01 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:49:04 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:49:09 AM - search_case - 623 - INFO - Status of FA-0563369 >>> Inspection & Review
+31/Aug/2022 09:49:11 AM - move_case - 518 - DEBUG - No. Of window handles2: 2 >>>  ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-521953AF746A55C2428E7A0F83139368']
+31/Aug/2022 09:49:11 AM - move_case - 525 - DEBUG - Change Status Window: Change Status >>> ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-521953AF746A55C2428E7A0F83139368']
+31/Aug/2022 09:49:47 AM - search_case - 600 - INFO - FA Case >>> FA-0563369
+31/Aug/2022 09:49:51 AM - search_case - 623 - INFO - Status of FA-0563369 >>> Pending Closure Approval
+31/Aug/2022 09:50:01 AM - search_case - 600 - INFO - FA Case >>> FA-0563370
+31/Aug/2022 09:50:05 AM - search_case - 623 - INFO - Status of FA-0563370 >>> Inspection & Review
+31/Aug/2022 09:50:07 AM - search_case - 600 - INFO - FA Case >>> FA-0563370
+31/Aug/2022 09:50:12 AM - search_case - 623 - INFO - Status of FA-0563370 >>> Inspection & Review
+31/Aug/2022 09:50:14 AM - update_qms_data - 234 - DEBUG - 4
+31/Aug/2022 09:50:15 AM - update_qms_data - 259 - DEBUG - Check Sort is pass.
+31/Aug/2022 09:50:16 AM - update_qms_data - 273 - INFO - Exact rows >>> 4 Rows number >>> 8
+31/Aug/2022 09:50:16 AM - update_qms_data - 287 - DEBUG - <selenium.webdriver.remote.webelement.WebElement (session="cce2384980da994173e3a5bf6bf77b6a", element="5de9f396-bdec-4d22-bd39-434140b8caa1")>
+31/Aug/2022 09:50:16 AM - update_qms_data - 314 - INFO - FA FLAG >>> Yes
+31/Aug/2022 09:50:16 AM - update_qms_data - 332 - INFO - Serial Number >>> OPM20330HK7
+31/Aug/2022 09:50:16 AM - update_qms_data - 336 - INFO - Dispose to >>> Scrap
+31/Aug/2022 09:50:18 AM - update_qms_data - 383 - DEBUG - Check Render >>> PID Result/Failure Mode/Failure Code : PID Result/Failure Mode/Failure Code
+31/Aug/2022 09:50:18 AM - update_qms_data - 287 - DEBUG - <selenium.webdriver.remote.webelement.WebElement (session="cce2384980da994173e3a5bf6bf77b6a", element="b4e99e38-e790-4930-a533-471c2b59b14a")>
+31/Aug/2022 09:50:18 AM - update_qms_data - 314 - INFO - FA FLAG >>> Yes
+31/Aug/2022 09:50:18 AM - update_qms_data - 332 - INFO - Serial Number >>> AVJ19063HDC
+31/Aug/2022 09:50:18 AM - update_qms_data - 336 - INFO - Dispose to >>> Scrap
+31/Aug/2022 09:50:19 AM - update_qms_data - 383 - DEBUG - Check Render >>> PID Result/Failure Mode/Failure Code : PID Result/Failure Mode/Failure Code
+31/Aug/2022 09:50:19 AM - update_qms_data - 287 - DEBUG - <selenium.webdriver.remote.webelement.WebElement (session="cce2384980da994173e3a5bf6bf77b6a", element="db8ae471-7925-4ed7-895c-133618f57dd6")>
+31/Aug/2022 09:50:19 AM - update_qms_data - 314 - INFO - FA FLAG >>> Yes
+31/Aug/2022 09:50:19 AM - update_qms_data - 332 - INFO - Serial Number >>> OPM20330GMF
+31/Aug/2022 09:50:19 AM - update_qms_data - 336 - INFO - Dispose to >>> Scrap
+31/Aug/2022 09:50:20 AM - update_qms_data - 383 - DEBUG - Check Render >>> PID Result/Failure Mode/Failure Code : PID Result/Failure Mode/Failure Code
+31/Aug/2022 09:50:20 AM - update_qms_data - 287 - DEBUG - <selenium.webdriver.remote.webelement.WebElement (session="cce2384980da994173e3a5bf6bf77b6a", element="8acded85-fcfc-4072-917b-eef5880653cc")>
+31/Aug/2022 09:50:20 AM - update_qms_data - 314 - INFO - FA FLAG >>> Yes
+31/Aug/2022 09:50:20 AM - update_qms_data - 332 - INFO - Serial Number >>> AVJ19063KF5
+31/Aug/2022 09:50:20 AM - update_qms_data - 336 - INFO - Dispose to >>> Scrap
+31/Aug/2022 09:50:29 AM - update_qms_data - 383 - DEBUG - Check Render >>> PID Result/Failure Mode/Failure Code : PID Result/Failure Mode/Failure Code
+31/Aug/2022 09:50:29 AM - search_case - 600 - INFO - FA Case >>> FA-0563370
+31/Aug/2022 09:50:30 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:50:32 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:50:34 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:50:36 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:50:39 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:50:41 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:50:43 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:50:45 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:50:47 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:50:49 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:50:51 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:50:53 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:50:55 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:50:57 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:50:59 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:51:02 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:51:04 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:51:06 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:51:08 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:51:10 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:51:12 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:51:14 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:51:16 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:51:18 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:51:20 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:51:22 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:51:29 AM - search_case - 623 - INFO - Status of FA-0563370 >>> Inspection & Review
+31/Aug/2022 09:51:30 AM - move_case - 518 - DEBUG - No. Of window handles2: 2 >>>  ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-0DD8902656AFF9F09577D119F4287856']
+31/Aug/2022 09:51:30 AM - move_case - 525 - DEBUG - Change Status Window: Change Status >>> ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-0DD8902656AFF9F09577D119F4287856']
+31/Aug/2022 09:52:04 AM - search_case - 600 - INFO - FA Case >>> FA-0563370
+31/Aug/2022 09:52:09 AM - search_case - 623 - INFO - Status of FA-0563370 >>> Pending Closure Approval
+31/Aug/2022 09:52:20 AM - search_case - 600 - INFO - FA Case >>> FA-0563392
+31/Aug/2022 09:52:28 AM - search_case - 623 - INFO - Status of FA-0563392 >>> Inspection & Review
+31/Aug/2022 09:52:29 AM - search_case - 600 - INFO - FA Case >>> FA-0563392
+31/Aug/2022 09:52:35 AM - search_case - 623 - INFO - Status of FA-0563392 >>> Inspection & Review
+31/Aug/2022 09:52:37 AM - update_qms_data - 234 - DEBUG - 1
+31/Aug/2022 09:52:38 AM - update_qms_data - 259 - DEBUG - Check Sort is pass.
+31/Aug/2022 09:52:39 AM - update_qms_data - 273 - INFO - Exact rows >>> 1 Rows number >>> 2
+31/Aug/2022 09:52:39 AM - update_qms_data - 287 - DEBUG - <selenium.webdriver.remote.webelement.WebElement (session="cce2384980da994173e3a5bf6bf77b6a", element="8c00a00c-8768-4cf2-ac4c-e404b411e1ef")>
+31/Aug/2022 09:52:39 AM - update_qms_data - 314 - INFO - FA FLAG >>> Yes
+31/Aug/2022 09:52:39 AM - update_qms_data - 332 - INFO - Serial Number >>> OPT2127004A
+31/Aug/2022 09:52:39 AM - update_qms_data - 336 - INFO - Dispose to >>> Scrap
+31/Aug/2022 09:52:41 AM - update_qms_data - 383 - DEBUG - Check Render >>> PID Result/Failure Mode/Failure Code : PID Result/Failure Mode/Failure Code
+31/Aug/2022 09:52:41 AM - search_case - 600 - INFO - FA Case >>> FA-0563392
+31/Aug/2022 09:52:42 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:52:44 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:52:46 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:52:48 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:52:50 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:52:52 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:52:54 AM - search_case - 638 - WARNING - This case wase changed the priority !!!
+31/Aug/2022 09:53:03 AM - update_qms_data - 433 - CRITICAL - Traceback Error: Traceback (most recent call last):
+  File "C:\Users\wlongsid\OneDrive - Cisco\Documents\DEV\PY\qms_auto_update_incpection_cases\main.py", line 621, in search_case
+    self.fa_status = WebDriverWait(self.driver, 20).until(ec.visibility_of_element_located((By.XPATH, '//h2[@style="color:Blue;"]'))).text
+  File "C:\Users\wlongsid\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\wait.py", line 78, in until
+    value = method(self._driver)
+  File "C:\Users\wlongsid\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 125, in _predicate
+    return _element_if_visible(driver.find_element(*locator))
+  File "C:\Users\wlongsid\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1244, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\wlongsid\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 424, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\wlongsid\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 246, in check_response
+    raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: You did not save your changes. Are you sure you want to discard the changes on this page?
+Message: unexpected alert open: {Alert text : You did not save your changes. Are you sure you want to discard the changes on this page?}
+  (Session info: chrome=104.0.5112.102)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x007F6463+2188387]
+	Ordinal0 [0x0078E461+1762401]
+	Ordinal0 [0x006A3D78+802168]
+	Ordinal0 [0x006FCA92+1165970]
+	Ordinal0 [0x006EC5F6+1099254]
+	Ordinal0 [0x006C6BE0+945120]
+	Ordinal0 [0x006C7AD6+948950]
+	GetHandleVerifier [0x00A971F2+2712546]
+	GetHandleVerifier [0x00A8886D+2652765]
+	GetHandleVerifier [0x0088002A+520730]
+	GetHandleVerifier [0x0087EE06+516086]
+	Ordinal0 [0x0079468B+1787531]
+	Ordinal0 [0x00798E88+1805960]
+	Ordinal0 [0x00798F75+1806197]
+	Ordinal0 [0x007A1DF1+1842673]
+	BaseThreadInitThunk [0x7679FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77C37A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77C37A6E+238]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wlongsid\OneDrive - Cisco\Documents\DEV\PY\qms_auto_update_incpection_cases\main.py", line 423, in update_qms_data
+    self.search_case(fa_case,'Inspection & Review')
+  File "C:\Users\wlongsid\OneDrive - Cisco\Documents\DEV\PY\qms_auto_update_incpection_cases\main.py", line 640, in search_case
+    if fa_case in WebDriverWait(self.driver, 20).until(ec.visibility_of_element_located((By.XPATH, '//h4[@id="searchResultHeader"]'))).text:
+  File "C:\Users\wlongsid\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\wait.py", line 78, in until
+    value = method(self._driver)
+  File "C:\Users\wlongsid\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 125, in _predicate
+    return _element_if_visible(driver.find_element(*locator))
+  File "C:\Users\wlongsid\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1244, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\wlongsid\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 424, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\wlongsid\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 246, in check_response
+    raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: You did not save your changes. Are you sure you want to discard the changes on this page?
+Message: unexpected alert open: {Alert text : You did not save your changes. Are you sure you want to discard the changes on this page?}
+  (Session info: chrome=104.0.5112.102)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x007F6463+2188387]
+	Ordinal0 [0x0078E461+1762401]
+	Ordinal0 [0x006A3D78+802168]
+	Ordinal0 [0x006FCA92+1165970]
+	Ordinal0 [0x006EC5F6+1099254]
+	Ordinal0 [0x006C6BE0+945120]
+	Ordinal0 [0x006C7AD6+948950]
+	GetHandleVerifier [0x00A971F2+2712546]
+	GetHandleVerifier [0x00A8886D+2652765]
+	GetHandleVerifier [0x0088002A+520730]
+	GetHandleVerifier [0x0087EE06+516086]
+	Ordinal0 [0x0079468B+1787531]
+	Ordinal0 [0x00798E88+1805960]
+	Ordinal0 [0x00798F75+1806197]
+	Ordinal0 [0x007A1DF1+1842673]
+	BaseThreadInitThunk [0x7679FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77C37A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77C37A6E+238]
+
+
+31/Aug/2022 09:53:03 AM - search_case - 600 - INFO - FA Case >>> FA-0563882
+31/Aug/2022 09:53:03 AM - search_case - 638 - WARNING - This case wase changed the priority !!!
+31/Aug/2022 09:53:15 AM - search_case - 682 - CRITICAL - FA-0563882 : Page is not rendering !!!
+31/Aug/2022 09:53:20 AM - search_case - 623 - INFO - Status of FA-0563882 >>> Inspection & Review
+31/Aug/2022 09:53:22 AM - search_case - 600 - INFO - FA Case >>> FA-0563882
+31/Aug/2022 09:53:27 AM - search_case - 623 - INFO - Status of FA-0563882 >>> Inspection & Review
+31/Aug/2022 09:53:30 AM - update_qms_data - 234 - DEBUG - 2
+31/Aug/2022 09:53:31 AM - update_qms_data - 259 - DEBUG - Check Sort is pass.
+31/Aug/2022 09:53:32 AM - update_qms_data - 273 - INFO - Exact rows >>> 2 Rows number >>> 4
+31/Aug/2022 09:53:32 AM - update_qms_data - 287 - DEBUG - <selenium.webdriver.remote.webelement.WebElement (session="cce2384980da994173e3a5bf6bf77b6a", element="f1901b65-295a-476e-90ac-50643f8cd203")>
+31/Aug/2022 09:53:32 AM - update_qms_data - 314 - INFO - FA FLAG >>> Yes
+31/Aug/2022 09:53:32 AM - update_qms_data - 332 - INFO - Serial Number >>> AVP1830S2Q2
+31/Aug/2022 09:53:32 AM - update_qms_data - 336 - INFO - Dispose to >>> Scrap
+31/Aug/2022 09:53:33 AM - update_qms_data - 383 - DEBUG - Check Render >>> PID Result/Failure Mode/Failure Code : PID Result/Failure Mode/Failure Code
+31/Aug/2022 09:53:33 AM - update_qms_data - 287 - DEBUG - <selenium.webdriver.remote.webelement.WebElement (session="cce2384980da994173e3a5bf6bf77b6a", element="79d5ecbe-fcdc-4da8-8b8f-d13104dadd75")>
+31/Aug/2022 09:53:33 AM - update_qms_data - 314 - INFO - FA FLAG >>> Yes
+31/Aug/2022 09:53:33 AM - update_qms_data - 332 - INFO - Serial Number >>> FIW204100KY
+31/Aug/2022 09:53:33 AM - update_qms_data - 336 - INFO - Dispose to >>> Scrap
+31/Aug/2022 09:53:35 AM - update_qms_data - 383 - DEBUG - Check Render >>> PID Result/Failure Mode/Failure Code : PID Result/Failure Mode/Failure Code
+31/Aug/2022 09:53:35 AM - search_case - 600 - INFO - FA Case >>> FA-0563882
+31/Aug/2022 09:53:36 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:53:38 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:53:40 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:53:42 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:53:44 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:53:46 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:53:48 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:53:51 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:53:53 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:53:55 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:53:57 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:53:59 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:54:01 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:54:03 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:54:10 AM - search_case - 623 - INFO - Status of FA-0563882 >>> Inspection & Review
+31/Aug/2022 09:54:12 AM - move_case - 518 - DEBUG - No. Of window handles2: 2 >>>  ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-513B3E7425F124D029089EBFF37C9429']
+31/Aug/2022 09:54:12 AM - move_case - 525 - DEBUG - Change Status Window: Change Status >>> ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-513B3E7425F124D029089EBFF37C9429']
+31/Aug/2022 09:55:23 AM - search_case - 600 - INFO - FA Case >>> FA-0563882
+31/Aug/2022 09:55:28 AM - search_case - 623 - INFO - Status of FA-0563882 >>> Pending Closure Approval
+31/Aug/2022 09:55:40 AM - search_case - 600 - INFO - FA Case >>> FA-0563986
+31/Aug/2022 09:55:46 AM - search_case - 623 - INFO - Status of FA-0563986 >>> Inspection & Review
+31/Aug/2022 09:55:47 AM - search_case - 600 - INFO - FA Case >>> FA-0563986
+31/Aug/2022 09:55:52 AM - search_case - 623 - INFO - Status of FA-0563986 >>> Inspection & Review
+31/Aug/2022 09:55:55 AM - update_qms_data - 234 - DEBUG - 1
+31/Aug/2022 09:55:56 AM - update_qms_data - 259 - DEBUG - Check Sort is pass.
+31/Aug/2022 09:55:57 AM - update_qms_data - 273 - INFO - Exact rows >>> 1 Rows number >>> 2
+31/Aug/2022 09:55:57 AM - update_qms_data - 287 - DEBUG - <selenium.webdriver.remote.webelement.WebElement (session="cce2384980da994173e3a5bf6bf77b6a", element="baa292e9-a4a0-4965-a6fa-d27c4524d570")>
+31/Aug/2022 09:55:57 AM - update_qms_data - 314 - INFO - FA FLAG >>> Yes
+31/Aug/2022 09:55:57 AM - update_qms_data - 332 - INFO - Serial Number >>> DTS2047A045
+31/Aug/2022 09:55:57 AM - update_qms_data - 336 - INFO - Dispose to >>> Scrap
+31/Aug/2022 09:55:58 AM - update_qms_data - 383 - DEBUG - Check Render >>> PID Result/Failure Mode/Failure Code : PID Result/Failure Mode/Failure Code
+31/Aug/2022 09:55:59 AM - search_case - 600 - INFO - FA Case >>> FA-0563986
+31/Aug/2022 09:56:00 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:56:02 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:56:04 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:56:06 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:56:08 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:56:10 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:56:12 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:56:14 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:56:16 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:56:19 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:56:21 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:56:23 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:56:25 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:56:31 AM - search_case - 623 - INFO - Status of FA-0563986 >>> Inspection & Review
+31/Aug/2022 09:56:33 AM - move_case - 518 - DEBUG - No. Of window handles2: 2 >>>  ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-EC1DB4BBAD53C5C594C3B0A789CC3159']
+31/Aug/2022 09:56:33 AM - move_case - 525 - DEBUG - Change Status Window: Change Status >>> ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-EC1DB4BBAD53C5C594C3B0A789CC3159']
+31/Aug/2022 09:57:08 AM - search_case - 600 - INFO - FA Case >>> FA-0563986
+31/Aug/2022 09:57:13 AM - search_case - 623 - INFO - Status of FA-0563986 >>> Pending Closure Approval
+31/Aug/2022 09:57:25 AM - search_case - 600 - INFO - FA Case >>> FA-0564279
+31/Aug/2022 09:57:30 AM - search_case - 623 - INFO - Status of FA-0564279 >>> Inspection & Review
+31/Aug/2022 09:57:31 AM - search_case - 600 - INFO - FA Case >>> FA-0564279
+31/Aug/2022 09:57:37 AM - search_case - 623 - INFO - Status of FA-0564279 >>> Inspection & Review
+31/Aug/2022 09:57:39 AM - update_qms_data - 234 - DEBUG - 2
+31/Aug/2022 09:57:40 AM - update_qms_data - 259 - DEBUG - Check Sort is pass.
+31/Aug/2022 09:57:41 AM - update_qms_data - 273 - INFO - Exact rows >>> 2 Rows number >>> 4
+31/Aug/2022 09:57:41 AM - update_qms_data - 287 - DEBUG - <selenium.webdriver.remote.webelement.WebElement (session="cce2384980da994173e3a5bf6bf77b6a", element="4a88a08f-2f58-4833-9d27-107e56cd2f36")>
+31/Aug/2022 09:57:41 AM - update_qms_data - 314 - INFO - FA FLAG >>> Yes
+31/Aug/2022 09:57:42 AM - update_qms_data - 332 - INFO - Serial Number >>> FNS20250VKM
+31/Aug/2022 09:57:42 AM - update_qms_data - 336 - INFO - Dispose to >>> Scrap
+31/Aug/2022 09:57:43 AM - update_qms_data - 383 - DEBUG - Check Render >>> PID Result/Failure Mode/Failure Code : PID Result/Failure Mode/Failure Code
+31/Aug/2022 09:57:43 AM - update_qms_data - 287 - DEBUG - <selenium.webdriver.remote.webelement.WebElement (session="cce2384980da994173e3a5bf6bf77b6a", element="72bc46d2-f343-44b5-86cc-e913da7dc24f")>
+31/Aug/2022 09:57:43 AM - update_qms_data - 314 - INFO - FA FLAG >>> Yes
+31/Aug/2022 09:57:43 AM - update_qms_data - 332 - INFO - Serial Number >>> ACW2129028G
+31/Aug/2022 09:57:43 AM - update_qms_data - 336 - INFO - Dispose to >>> Scrap
+31/Aug/2022 09:57:44 AM - update_qms_data - 383 - DEBUG - Check Render >>> PID Result/Failure Mode/Failure Code : PID Result/Failure Mode/Failure Code
+31/Aug/2022 09:57:45 AM - search_case - 600 - INFO - FA Case >>> FA-0564279
+31/Aug/2022 09:57:46 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:57:48 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:57:50 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:57:52 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:57:54 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:57:56 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:57:58 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:58:00 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:58:02 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:58:08 AM - search_case - 623 - INFO - Status of FA-0564279 >>> Inspection & Review
+31/Aug/2022 09:58:10 AM - move_case - 518 - DEBUG - No. Of window handles2: 2 >>>  ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-C60CDD59ED7ECC8E8C31C8A8C9096809']
+31/Aug/2022 09:58:10 AM - move_case - 525 - DEBUG - Change Status Window: Change Status >>> ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-C60CDD59ED7ECC8E8C31C8A8C9096809']
+31/Aug/2022 09:59:11 AM - search_case - 600 - INFO - FA Case >>> FA-0564279
+31/Aug/2022 09:59:16 AM - search_case - 623 - INFO - Status of FA-0564279 >>> Pending Closure Approval
+31/Aug/2022 09:59:26 AM - search_case - 600 - INFO - FA Case >>> FA-0564360
+31/Aug/2022 09:59:31 AM - search_case - 623 - INFO - Status of FA-0564360 >>> Inspection & Review
+31/Aug/2022 09:59:32 AM - search_case - 600 - INFO - FA Case >>> FA-0564360
+31/Aug/2022 09:59:37 AM - search_case - 623 - INFO - Status of FA-0564360 >>> Inspection & Review
+31/Aug/2022 09:59:40 AM - update_qms_data - 234 - DEBUG - 1
+31/Aug/2022 09:59:41 AM - update_qms_data - 259 - DEBUG - Check Sort is pass.
+31/Aug/2022 09:59:42 AM - update_qms_data - 273 - INFO - Exact rows >>> 1 Rows number >>> 2
+31/Aug/2022 09:59:42 AM - update_qms_data - 287 - DEBUG - <selenium.webdriver.remote.webelement.WebElement (session="cce2384980da994173e3a5bf6bf77b6a", element="c74ef81e-ed7d-43fb-a319-ad42b60fdc6b")>
+31/Aug/2022 09:59:42 AM - update_qms_data - 314 - INFO - FA FLAG >>> Yes
+31/Aug/2022 09:59:42 AM - update_qms_data - 332 - INFO - Serial Number >>> JFQ21271016
+31/Aug/2022 09:59:42 AM - update_qms_data - 336 - INFO - Dispose to >>> Scrap
+31/Aug/2022 09:59:43 AM - update_qms_data - 383 - DEBUG - Check Render >>> PID Result/Failure Mode/Failure Code : PID Result/Failure Mode/Failure Code
+31/Aug/2022 09:59:44 AM - search_case - 600 - INFO - FA Case >>> FA-0564360
+31/Aug/2022 09:59:45 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:59:47 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:59:49 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:59:51 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:59:53 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 09:59:55 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:00:02 AM - search_case - 623 - INFO - Status of FA-0564360 >>> Inspection & Review
+31/Aug/2022 10:00:04 AM - move_case - 518 - DEBUG - No. Of window handles2: 2 >>>  ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-CCF54E4A1524B7A90797180B040C799A']
+31/Aug/2022 10:00:04 AM - move_case - 525 - DEBUG - Change Status Window: Change Status >>> ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-CCF54E4A1524B7A90797180B040C799A']
+31/Aug/2022 10:00:59 AM - search_case - 600 - INFO - FA Case >>> FA-0564360
+31/Aug/2022 10:01:04 AM - search_case - 623 - INFO - Status of FA-0564360 >>> Pending Closure Approval
+31/Aug/2022 10:01:14 AM - search_case - 600 - INFO - FA Case >>> FA-0564488
+31/Aug/2022 10:01:19 AM - search_case - 623 - INFO - Status of FA-0564488 >>> Inspection & Review
+31/Aug/2022 10:01:20 AM - search_case - 600 - INFO - FA Case >>> FA-0564488
+31/Aug/2022 10:01:26 AM - search_case - 623 - INFO - Status of FA-0564488 >>> Inspection & Review
+31/Aug/2022 10:01:28 AM - update_qms_data - 234 - DEBUG - 1
+31/Aug/2022 10:01:29 AM - update_qms_data - 259 - DEBUG - Check Sort is pass.
+31/Aug/2022 10:01:30 AM - update_qms_data - 273 - INFO - Exact rows >>> 1 Rows number >>> 2
+31/Aug/2022 10:01:30 AM - update_qms_data - 287 - DEBUG - <selenium.webdriver.remote.webelement.WebElement (session="cce2384980da994173e3a5bf6bf77b6a", element="696ce54e-c9f2-4a18-8dd4-cc7c72a26060")>
+31/Aug/2022 10:01:30 AM - update_qms_data - 314 - INFO - FA FLAG >>> Yes
+31/Aug/2022 10:01:30 AM - update_qms_data - 332 - INFO - Serial Number >>> A4Z2101K039
+31/Aug/2022 10:01:30 AM - update_qms_data - 336 - INFO - Dispose to >>> Scrap
+31/Aug/2022 10:01:32 AM - update_qms_data - 383 - DEBUG - Check Render >>> PID Result/Failure Mode/Failure Code : PID Result/Failure Mode/Failure Code
+31/Aug/2022 10:01:32 AM - search_case - 600 - INFO - FA Case >>> FA-0564488
+31/Aug/2022 10:01:33 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:01:35 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:01:37 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:01:39 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:01:41 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:01:44 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:01:46 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:01:51 AM - search_case - 623 - INFO - Status of FA-0564488 >>> Inspection & Review
+31/Aug/2022 10:01:53 AM - move_case - 518 - DEBUG - No. Of window handles2: 2 >>>  ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-2E2B1A2D854986AE841EA026F23AC401']
+31/Aug/2022 10:01:53 AM - move_case - 525 - DEBUG - Change Status Window: Change Status >>> ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-2E2B1A2D854986AE841EA026F23AC401']
+31/Aug/2022 10:02:19 AM - search_case - 600 - INFO - FA Case >>> FA-0564488
+31/Aug/2022 10:02:24 AM - search_case - 623 - INFO - Status of FA-0564488 >>> Pending Closure Approval
+31/Aug/2022 10:03:02 AM - search_case - 600 - INFO - FA Case >>> FA-0564531
+31/Aug/2022 10:03:08 AM - search_case - 623 - INFO - Status of FA-0564531 >>> Inspection & Review
+31/Aug/2022 10:03:09 AM - search_case - 600 - INFO - FA Case >>> FA-0564531
+31/Aug/2022 10:03:14 AM - search_case - 623 - INFO - Status of FA-0564531 >>> Inspection & Review
+31/Aug/2022 10:03:17 AM - update_qms_data - 234 - DEBUG - 1
+31/Aug/2022 10:03:18 AM - update_qms_data - 259 - DEBUG - Check Sort is pass.
+31/Aug/2022 10:03:19 AM - update_qms_data - 273 - INFO - Exact rows >>> 1 Rows number >>> 2
+31/Aug/2022 10:03:19 AM - update_qms_data - 287 - DEBUG - <selenium.webdriver.remote.webelement.WebElement (session="cce2384980da994173e3a5bf6bf77b6a", element="2d3f7816-d275-4556-8117-0805b91462aa")>
+31/Aug/2022 10:03:19 AM - update_qms_data - 314 - INFO - FA FLAG >>> Yes
+31/Aug/2022 10:03:19 AM - update_qms_data - 332 - INFO - Serial Number >>> FNS19080MA1
+31/Aug/2022 10:03:19 AM - update_qms_data - 336 - INFO - Dispose to >>> Scrap
+31/Aug/2022 10:03:20 AM - update_qms_data - 383 - DEBUG - Check Render >>> PID Result/Failure Mode/Failure Code : PID Result/Failure Mode/Failure Code
+31/Aug/2022 10:03:21 AM - search_case - 600 - INFO - FA Case >>> FA-0564531
+31/Aug/2022 10:03:22 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:03:24 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:03:26 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:03:28 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:03:30 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:03:32 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:03:34 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:03:36 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:03:38 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:03:45 AM - search_case - 623 - INFO - Status of FA-0564531 >>> Inspection & Review
+31/Aug/2022 10:03:47 AM - move_case - 518 - DEBUG - No. Of window handles2: 2 >>>  ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-3CB47B2A2B7178F4329BF992C05C2A5D']
+31/Aug/2022 10:03:47 AM - move_case - 525 - DEBUG - Change Status Window: Change Status >>> ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-3CB47B2A2B7178F4329BF992C05C2A5D']
+31/Aug/2022 10:04:17 AM - search_case - 600 - INFO - FA Case >>> FA-0564531
+31/Aug/2022 10:04:22 AM - search_case - 623 - INFO - Status of FA-0564531 >>> Pending Closure Approval
+31/Aug/2022 10:04:55 AM - search_case - 600 - INFO - FA Case >>> FA-0564619
+31/Aug/2022 10:05:01 AM - search_case - 623 - INFO - Status of FA-0564619 >>> Inspection & Review
+31/Aug/2022 10:05:03 AM - search_case - 600 - INFO - FA Case >>> FA-0564619
+31/Aug/2022 10:05:08 AM - search_case - 623 - INFO - Status of FA-0564619 >>> Inspection & Review
+31/Aug/2022 10:05:11 AM - update_qms_data - 234 - DEBUG - 1
+31/Aug/2022 10:05:12 AM - update_qms_data - 259 - DEBUG - Check Sort is pass.
+31/Aug/2022 10:05:13 AM - update_qms_data - 273 - INFO - Exact rows >>> 1 Rows number >>> 2
+31/Aug/2022 10:05:13 AM - update_qms_data - 287 - DEBUG - <selenium.webdriver.remote.webelement.WebElement (session="cce2384980da994173e3a5bf6bf77b6a", element="f2ef5cd8-7739-4f40-9295-d0b8d862325f")>
+31/Aug/2022 10:05:13 AM - update_qms_data - 314 - INFO - FA FLAG >>> Yes
+31/Aug/2022 10:05:13 AM - update_qms_data - 332 - INFO - Serial Number >>> AVF2036G01A
+31/Aug/2022 10:05:13 AM - update_qms_data - 336 - INFO - Dispose to >>> Scrap
+31/Aug/2022 10:05:14 AM - update_qms_data - 383 - DEBUG - Check Render >>> PID Result/Failure Mode/Failure Code : PID Result/Failure Mode/Failure Code
+31/Aug/2022 10:05:14 AM - search_case - 600 - INFO - FA Case >>> FA-0564619
+31/Aug/2022 10:05:16 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:05:18 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:05:20 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:05:22 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:05:24 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:05:26 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:05:32 AM - search_case - 623 - INFO - Status of FA-0564619 >>> Inspection & Review
+31/Aug/2022 10:05:35 AM - move_case - 518 - DEBUG - No. Of window handles2: 2 >>>  ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-35ACDCCA9EB7DF5C2664B83C0126A83B']
+31/Aug/2022 10:05:35 AM - move_case - 525 - DEBUG - Change Status Window: Change Status >>> ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-35ACDCCA9EB7DF5C2664B83C0126A83B']
+31/Aug/2022 10:06:08 AM - search_case - 600 - INFO - FA Case >>> FA-0564619
+31/Aug/2022 10:06:13 AM - search_case - 623 - INFO - Status of FA-0564619 >>> Pending Closure Approval
+31/Aug/2022 10:06:24 AM - search_case - 600 - INFO - FA Case >>> FA-0564627
+31/Aug/2022 10:06:28 AM - search_case - 623 - INFO - Status of FA-0564627 >>> Inspection & Review
+31/Aug/2022 10:06:30 AM - search_case - 600 - INFO - FA Case >>> FA-0564627
+31/Aug/2022 10:06:35 AM - search_case - 623 - INFO - Status of FA-0564627 >>> Inspection & Review
+31/Aug/2022 10:06:37 AM - update_qms_data - 234 - DEBUG - 1
+31/Aug/2022 10:06:38 AM - update_qms_data - 259 - DEBUG - Check Sort is pass.
+31/Aug/2022 10:06:39 AM - update_qms_data - 273 - INFO - Exact rows >>> 1 Rows number >>> 2
+31/Aug/2022 10:06:39 AM - update_qms_data - 287 - DEBUG - <selenium.webdriver.remote.webelement.WebElement (session="cce2384980da994173e3a5bf6bf77b6a", element="d15c5b48-a968-4c04-98f6-397dc55d9ca4")>
+31/Aug/2022 10:06:39 AM - update_qms_data - 314 - INFO - FA FLAG >>> Yes
+31/Aug/2022 10:06:39 AM - update_qms_data - 332 - INFO - Serial Number >>> AVJ193933KB
+31/Aug/2022 10:06:39 AM - update_qms_data - 336 - INFO - Dispose to >>> Scrap
+31/Aug/2022 10:06:41 AM - update_qms_data - 383 - DEBUG - Check Render >>> PID Result/Failure Mode/Failure Code : PID Result/Failure Mode/Failure Code
+31/Aug/2022 10:06:41 AM - search_case - 600 - INFO - FA Case >>> FA-0564627
+31/Aug/2022 10:06:42 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:06:44 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:06:46 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:06:48 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:06:50 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:06:52 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:06:55 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:06:57 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:06:59 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:07:01 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:07:03 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:07:05 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:07:07 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:07:09 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:07:11 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:07:13 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:07:15 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:07:18 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:07:20 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:07:25 AM - search_case - 623 - INFO - Status of FA-0564627 >>> Inspection & Review
+31/Aug/2022 10:07:27 AM - move_case - 518 - DEBUG - No. Of window handles2: 2 >>>  ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-34C6077331DEDEF5B8818D4ADE78B83B']
+31/Aug/2022 10:07:27 AM - move_case - 525 - DEBUG - Change Status Window: Change Status >>> ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-34C6077331DEDEF5B8818D4ADE78B83B']
+31/Aug/2022 10:08:02 AM - search_case - 600 - INFO - FA Case >>> FA-0564627
+31/Aug/2022 10:08:07 AM - search_case - 623 - INFO - Status of FA-0564627 >>> Pending Closure Approval
+31/Aug/2022 10:08:18 AM - search_case - 600 - INFO - FA Case >>> FA-0564741
+31/Aug/2022 10:08:23 AM - search_case - 623 - INFO - Status of FA-0564741 >>> Inspection & Review
+31/Aug/2022 10:08:24 AM - search_case - 600 - INFO - FA Case >>> FA-0564741
+31/Aug/2022 10:08:30 AM - search_case - 623 - INFO - Status of FA-0564741 >>> Inspection & Review
+31/Aug/2022 10:08:32 AM - update_qms_data - 234 - DEBUG - 2
+31/Aug/2022 10:08:33 AM - update_qms_data - 259 - DEBUG - Check Sort is pass.
+31/Aug/2022 10:08:34 AM - update_qms_data - 273 - INFO - Exact rows >>> 2 Rows number >>> 4
+31/Aug/2022 10:08:34 AM - update_qms_data - 287 - DEBUG - <selenium.webdriver.remote.webelement.WebElement (session="cce2384980da994173e3a5bf6bf77b6a", element="ffa727c4-6517-478b-bb1e-74d60faf7251")>
+31/Aug/2022 10:08:34 AM - update_qms_data - 314 - INFO - FA FLAG >>> Yes
+31/Aug/2022 10:08:34 AM - update_qms_data - 332 - INFO - Serial Number >>> FNS14060RRX
+31/Aug/2022 10:08:34 AM - update_qms_data - 336 - INFO - Dispose to >>> Scrap
+31/Aug/2022 10:08:36 AM - update_qms_data - 383 - DEBUG - Check Render >>> PID Result/Failure Mode/Failure Code : PID Result/Failure Mode/Failure Code
+31/Aug/2022 10:08:36 AM - update_qms_data - 287 - DEBUG - <selenium.webdriver.remote.webelement.WebElement (session="cce2384980da994173e3a5bf6bf77b6a", element="d9b50bc2-a6de-452b-ada6-b0f345a7a850")>
+31/Aug/2022 10:08:36 AM - update_qms_data - 314 - INFO - FA FLAG >>> Yes
+31/Aug/2022 10:08:36 AM - update_qms_data - 332 - INFO - Serial Number >>> FNS1407048P
+31/Aug/2022 10:08:36 AM - update_qms_data - 336 - INFO - Dispose to >>> Scrap
+31/Aug/2022 10:08:37 AM - update_qms_data - 383 - DEBUG - Check Render >>> PID Result/Failure Mode/Failure Code : PID Result/Failure Mode/Failure Code
+31/Aug/2022 10:08:38 AM - search_case - 600 - INFO - FA Case >>> FA-0564741
+31/Aug/2022 10:08:39 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:08:41 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:08:43 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:08:45 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:08:47 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:08:49 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:08:51 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:08:53 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:08:55 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:08:58 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:09:00 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:09:02 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:09:04 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:09:06 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:09:08 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:09:10 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:09:12 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:09:14 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:09:16 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:09:18 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:09:21 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:09:23 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:09:28 AM - search_case - 623 - INFO - Status of FA-0564741 >>> Inspection & Review
+31/Aug/2022 10:09:30 AM - move_case - 518 - DEBUG - No. Of window handles2: 2 >>>  ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-F48E030359E1C56A84B743B1FCD32B02']
+31/Aug/2022 10:09:30 AM - move_case - 525 - DEBUG - Change Status Window: Change Status >>> ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-F48E030359E1C56A84B743B1FCD32B02']
+31/Aug/2022 10:10:04 AM - search_case - 600 - INFO - FA Case >>> FA-0564741
+31/Aug/2022 10:10:09 AM - search_case - 623 - INFO - Status of FA-0564741 >>> Pending Closure Approval
+31/Aug/2022 10:10:25 AM - search_case - 600 - INFO - FA Case >>> FA-0564864
+31/Aug/2022 10:10:31 AM - search_case - 623 - INFO - Status of FA-0564864 >>> Inspection & Review
+31/Aug/2022 10:10:32 AM - search_case - 600 - INFO - FA Case >>> FA-0564864
+31/Aug/2022 10:10:38 AM - search_case - 623 - INFO - Status of FA-0564864 >>> Inspection & Review
+31/Aug/2022 10:10:40 AM - update_qms_data - 234 - DEBUG - 1
+31/Aug/2022 10:10:41 AM - update_qms_data - 259 - DEBUG - Check Sort is pass.
+31/Aug/2022 10:10:42 AM - update_qms_data - 273 - INFO - Exact rows >>> 1 Rows number >>> 2
+31/Aug/2022 10:10:42 AM - update_qms_data - 287 - DEBUG - <selenium.webdriver.remote.webelement.WebElement (session="cce2384980da994173e3a5bf6bf77b6a", element="cd6f4805-0137-48d0-bb75-233691cd57e3")>
+31/Aug/2022 10:10:42 AM - update_qms_data - 314 - INFO - FA FLAG >>> Yes
+31/Aug/2022 10:10:42 AM - update_qms_data - 332 - INFO - Serial Number >>> AVJ203635A9
+31/Aug/2022 10:10:42 AM - update_qms_data - 336 - INFO - Dispose to >>> Scrap
+31/Aug/2022 10:10:44 AM - update_qms_data - 383 - DEBUG - Check Render >>> PID Result/Failure Mode/Failure Code : PID Result/Failure Mode/Failure Code
+31/Aug/2022 10:10:44 AM - search_case - 600 - INFO - FA Case >>> FA-0564864
+31/Aug/2022 10:10:45 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:10:47 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:10:49 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:10:51 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:10:53 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:10:55 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:10:57 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:11:00 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:11:02 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:11:04 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:11:06 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:11:08 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:11:10 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:11:12 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:11:14 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:11:16 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:11:22 AM - search_case - 623 - INFO - Status of FA-0564864 >>> Inspection & Review
+31/Aug/2022 10:11:24 AM - move_case - 518 - DEBUG - No. Of window handles2: 2 >>>  ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-009703A2989C51920A3190BD0F94D4E3']
+31/Aug/2022 10:11:24 AM - move_case - 525 - DEBUG - Change Status Window: Change Status >>> ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-009703A2989C51920A3190BD0F94D4E3']
+31/Aug/2022 10:12:02 AM - search_case - 600 - INFO - FA Case >>> FA-0564864
+31/Aug/2022 10:12:06 AM - search_case - 623 - INFO - Status of FA-0564864 >>> Pending Closure Approval
+31/Aug/2022 10:12:16 AM - search_case - 600 - INFO - FA Case >>> FA-0564865
+31/Aug/2022 10:12:21 AM - search_case - 623 - INFO - Status of FA-0564865 >>> Inspection & Review
+31/Aug/2022 10:12:22 AM - search_case - 600 - INFO - FA Case >>> FA-0564865
+31/Aug/2022 10:12:27 AM - search_case - 623 - INFO - Status of FA-0564865 >>> Inspection & Review
+31/Aug/2022 10:12:29 AM - update_qms_data - 234 - DEBUG - 1
+31/Aug/2022 10:12:30 AM - update_qms_data - 259 - DEBUG - Check Sort is pass.
+31/Aug/2022 10:12:31 AM - update_qms_data - 273 - INFO - Exact rows >>> 1 Rows number >>> 2
+31/Aug/2022 10:12:31 AM - update_qms_data - 287 - DEBUG - <selenium.webdriver.remote.webelement.WebElement (session="cce2384980da994173e3a5bf6bf77b6a", element="fc0d7c4c-620a-42be-9dc3-f37beb1c7f13")>
+31/Aug/2022 10:12:32 AM - update_qms_data - 314 - INFO - FA FLAG >>> Yes
+31/Aug/2022 10:12:32 AM - update_qms_data - 332 - INFO - Serial Number >>> MDM17370086
+31/Aug/2022 10:12:32 AM - update_qms_data - 336 - INFO - Dispose to >>> Scrap
+31/Aug/2022 10:12:33 AM - update_qms_data - 383 - DEBUG - Check Render >>> PID Result/Failure Mode/Failure Code : PID Result/Failure Mode/Failure Code
+31/Aug/2022 10:12:33 AM - search_case - 600 - INFO - FA Case >>> FA-0564865
+31/Aug/2022 10:12:34 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:12:36 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:12:39 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:12:41 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:12:43 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:12:45 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:12:47 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:12:49 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:12:51 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:12:53 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:12:55 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:12:57 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:13:00 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:13:02 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:13:04 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:13:06 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:13:08 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:13:14 AM - search_case - 623 - INFO - Status of FA-0564865 >>> Inspection & Review
+31/Aug/2022 10:13:16 AM - move_case - 518 - DEBUG - No. Of window handles2: 2 >>>  ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-F4D9CA2EF0557D3547E033FC9EF9D2EB']
+31/Aug/2022 10:13:16 AM - move_case - 525 - DEBUG - Change Status Window: Change Status >>> ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-F4D9CA2EF0557D3547E033FC9EF9D2EB']
+31/Aug/2022 10:13:52 AM - search_case - 600 - INFO - FA Case >>> FA-0564865
+31/Aug/2022 10:13:57 AM - search_case - 623 - INFO - Status of FA-0564865 >>> Pending Closure Approval
+31/Aug/2022 10:14:09 AM - search_case - 600 - INFO - FA Case >>> FA-0565066
+31/Aug/2022 10:14:13 AM - search_case - 623 - INFO - Status of FA-0565066 >>> Inspection & Review
+31/Aug/2022 10:14:15 AM - search_case - 600 - INFO - FA Case >>> FA-0565066
+31/Aug/2022 10:14:20 AM - search_case - 623 - INFO - Status of FA-0565066 >>> Inspection & Review
+31/Aug/2022 10:14:22 AM - update_qms_data - 234 - DEBUG - 1
+31/Aug/2022 10:14:23 AM - update_qms_data - 259 - DEBUG - Check Sort is pass.
+31/Aug/2022 10:14:24 AM - update_qms_data - 273 - INFO - Exact rows >>> 1 Rows number >>> 2
+31/Aug/2022 10:14:24 AM - update_qms_data - 287 - DEBUG - <selenium.webdriver.remote.webelement.WebElement (session="cce2384980da994173e3a5bf6bf77b6a", element="88f413a4-c4a7-4e69-8cc1-cc312fc2121f")>
+31/Aug/2022 10:14:24 AM - update_qms_data - 314 - INFO - FA FLAG >>> Yes
+31/Aug/2022 10:14:24 AM - update_qms_data - 332 - INFO - Serial Number >>> FNS192718WR
+31/Aug/2022 10:14:24 AM - update_qms_data - 336 - INFO - Dispose to >>> Scrap
+31/Aug/2022 10:14:26 AM - update_qms_data - 383 - DEBUG - Check Render >>> PID Result/Failure Mode/Failure Code : PID Result/Failure Mode/Failure Code
+31/Aug/2022 10:14:26 AM - search_case - 600 - INFO - FA Case >>> FA-0565066
+31/Aug/2022 10:14:27 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:14:29 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:14:31 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:14:33 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:14:35 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:14:37 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:14:40 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:14:42 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:14:44 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:14:46 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:14:48 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:14:50 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:14:52 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:14:54 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:14:56 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:14:59 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:15:01 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:15:03 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:15:05 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:15:07 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:15:09 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:15:11 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:15:17 AM - search_case - 623 - INFO - Status of FA-0565066 >>> Inspection & Review
+31/Aug/2022 10:15:19 AM - move_case - 518 - DEBUG - No. Of window handles2: 2 >>>  ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-87AE32ABC794A25E8548FB658D671561']
+31/Aug/2022 10:15:19 AM - move_case - 525 - DEBUG - Change Status Window: Change Status >>> ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-87AE32ABC794A25E8548FB658D671561']
+31/Aug/2022 10:15:51 AM - search_case - 600 - INFO - FA Case >>> FA-0565066
+31/Aug/2022 10:15:56 AM - search_case - 623 - INFO - Status of FA-0565066 >>> Pending Closure Approval
+31/Aug/2022 10:16:06 AM - search_case - 600 - INFO - FA Case >>> FA-0565633
+31/Aug/2022 10:16:11 AM - search_case - 623 - INFO - Status of FA-0565633 >>> Inspection & Review
+31/Aug/2022 10:16:12 AM - search_case - 600 - INFO - FA Case >>> FA-0565633
+31/Aug/2022 10:16:18 AM - search_case - 623 - INFO - Status of FA-0565633 >>> Inspection & Review
+31/Aug/2022 10:16:20 AM - update_qms_data - 234 - DEBUG - 1
+31/Aug/2022 10:16:21 AM - update_qms_data - 259 - DEBUG - Check Sort is pass.
+31/Aug/2022 10:16:22 AM - update_qms_data - 273 - INFO - Exact rows >>> 1 Rows number >>> 2
+31/Aug/2022 10:16:22 AM - update_qms_data - 287 - DEBUG - <selenium.webdriver.remote.webelement.WebElement (session="cce2384980da994173e3a5bf6bf77b6a", element="72be0c1b-e94b-4d81-8379-33437b75c9f6")>
+31/Aug/2022 10:16:23 AM - update_qms_data - 314 - INFO - FA FLAG >>> Yes
+31/Aug/2022 10:16:23 AM - update_qms_data - 332 - INFO - Serial Number >>> FNS18201EBL
+31/Aug/2022 10:16:23 AM - update_qms_data - 336 - INFO - Dispose to >>> Scrap
+31/Aug/2022 10:16:24 AM - update_qms_data - 383 - DEBUG - Check Render >>> PID Result/Failure Mode/Failure Code : PID Result/Failure Mode/Failure Code
+31/Aug/2022 10:16:24 AM - search_case - 600 - INFO - FA Case >>> FA-0565633
+31/Aug/2022 10:16:25 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:16:28 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:16:30 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:16:32 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:16:34 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:16:36 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:16:38 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:16:40 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:16:42 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:16:44 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:16:46 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:16:48 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:16:51 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:16:53 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:16:55 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:16:57 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:16:59 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:17:01 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:17:03 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:17:05 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:17:07 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:17:09 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:17:11 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:17:14 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:17:16 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:17:18 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:17:20 AM - search_case - 612 - WARNING - Wait for against click intercepted !!!
+31/Aug/2022 10:17:27 AM - search_case - 623 - INFO - Status of FA-0565633 >>> Inspection & Review
+31/Aug/2022 10:17:28 AM - move_case - 518 - DEBUG - No. Of window handles2: 2 >>>  ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-69FCAFB6EC7F7041238E225286A6C7B0']
+31/Aug/2022 10:17:28 AM - move_case - 525 - DEBUG - Change Status Window: Change Status >>> ['CDwindow-4022C3D128084862C4418CF6079D82F7', 'CDwindow-69FCAFB6EC7F7041238E225286A6C7B0']
+31/Aug/2022 10:18:12 AM - search_case - 600 - INFO - FA Case >>> FA-0565633
+31/Aug/2022 10:18:16 AM - search_case - 623 - INFO - Status of FA-0565633 >>> Pending Closure Approval
+31/Aug/2022 10:18:27 AM - main - 810 - INFO - INCORECT FA STATUS DICT: {}
+31/Aug/2022 10:18:27 AM - main - 812 - INFO - CAN NOT UPDATE DICT: {}
+31/Aug/2022 10:18:27 AM - <module> - 829 - CRITICAL - Traceback Error: NoneType: None
+

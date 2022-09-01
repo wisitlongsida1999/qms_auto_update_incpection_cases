@@ -69,6 +69,7 @@ class UPDATE_INSPECTION:
         self.passed_csv = 'passed.csv'
         self.failed_csv = 'failed.csv'
     
+    
     def login(self):
 
         self.driver=webdriver.Chrome()
@@ -368,9 +369,12 @@ class UPDATE_INSPECTION:
                         ActionChains(self.driver).double_click(dispose).perform()
 
                         self.press_down(time =4)
+                        
+                        sleep(1)
 
                     self.press_enter()
                     
+                    sleep(1)
                     
                     ai = entries[12]
                     
@@ -394,11 +398,17 @@ class UPDATE_INSPECTION:
                     
                     self.press_enter()
                     
+                    sleep(1)
+                    
                     WebDriverWait(self.driver, 20).until(ec.visibility_of_element_located((By.XPATH, '//a[@id="close_floater_R1_2000008011_0_display"]'))).click()
 
                     self.press_enter()
                     
+                    sleep(1)
+                    
                     self.press_down()
+                    
+                    
 
                 WebDriverWait(self.driver, 20).until(ec.element_to_be_clickable((By.XPATH, '//span[@id="MSG_Save_1span"]'))).click()
                 
