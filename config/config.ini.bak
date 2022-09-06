@@ -1,8 +1,5 @@
-[INSPECTION_LOGIN]
+[config]
 
-email = wlongsid@cisco.com
-password = @Rt025813603
+email = anuchma@cisco.com
+password = Nhoinhoi022653@
 
-inspect_path = C:\Users\wisitl\Documents\PY\Inspection_Macro\Inspect_Files\
-
-inherit_path = C:\Users\wisitl\Documents\PY\Inspection_Macro\Inherit_Files\
