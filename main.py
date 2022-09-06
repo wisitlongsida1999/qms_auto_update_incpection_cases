@@ -13,6 +13,9 @@ import datetime
 import traceback
 import os
 import csv
+import chromedriver_autoinstaller
+from selenium.webdriver.chrome.service import Service
+
 
 class UPDATE_INSPECTION:
 
@@ -68,11 +71,17 @@ class UPDATE_INSPECTION:
         
         self.passed_csv = 'passed.csv'
         self.failed_csv = 'failed.csv'
+        
+        
+        #init chrome driver
+        self.driver_path = chromedriver_autoinstaller.install()
+        self.logger.debug("Check chromedriver updating >>> "+self.driver_path)
+        
     
     
     def login(self):
 
-        self.driver=webdriver.Chrome()
+        self.driver=webdriver.Chrome(self.driver_path)
 
         self.driver.get('https://www-plmprd.cisco.com/Agile/')
 
