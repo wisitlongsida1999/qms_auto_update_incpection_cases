@@ -81,7 +81,7 @@ class UPDATE_INSPECTION:
     
     def login(self):
 
-        self.driver=webdriver.Chrome(self.driver_path)
+        self.driver=webdriver.Chrome(service=Service(self.driver_path))
 
         self.driver.get('https://www-plmprd.cisco.com/Agile/')
 
