@@ -15,7 +15,7 @@ import os
 import csv
 import chromedriver_autoinstaller
 from selenium.webdriver.chrome.service import Service
-
+from selenium.webdriver.firefox.options import Options
 
 class UPDATE_INSPECTION:
 
@@ -76,12 +76,34 @@ class UPDATE_INSPECTION:
         #init chrome driver
         self.driver_path = chromedriver_autoinstaller.install()
         self.logger.debug("Check chromedriver updating >>> "+self.driver_path)
-        
+
+        #init firefox binary path
+        self.options = Options()
+        self.options.binary_location = r'C:\Program Files\Mozilla Firefox\firefox.exe'
+
+        mime_types = [
+                        'text/plain', 
+                        'application/vnd.ms-excel', 
+                        'text/csv', 
+                        'application/csv', 
+                        'text/comma-separated-values', 
+                        'application/download', 
+                        'application/octet-stream', 
+                        'binary/octet-stream', 
+                        'application/binary', 
+                        'application/x-unknown'
+                    ]
+        self.options.set_preference("browser.helperApps.neverAsk.saveToDisk", ",".join(mime_types))
+
+
+
     
     
     def login(self):
 
-        self.driver=webdriver.Chrome(service=Service(self.driver_path))
+        # self.driver=webdriver.Chrome(service=Service(self.driver_path))
+        
+        self.driver = webdriver.Firefox(options=self.options)
 
         self.driver.get('https://www-plmprd.cisco.com/Agile/')
 
